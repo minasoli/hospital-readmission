@@ -6,14 +6,14 @@
 -- ============================================================
 
 -- Drop and recreate for clean load
-DROP TABLE IF EXISTS staging.readmissions_raw;
+DROP TABLE IF EXISTS readmissions_raw;
 DROP TABLE IF EXISTS dbo.fact_readmissions;
 DROP TABLE IF EXISTS dbo.dim_hospital;
 DROP TABLE IF EXISTS dbo.dim_diagnosis;
 DROP TABLE IF EXISTS dbo.dim_payer;
 
 -- ── Staging table (raw CSV load target) ──────────────────────
-CREATE TABLE staging.readmissions_raw (
+CREATE TABLE readmissions_raw (
     patient_id              INT,
     hospital                VARCHAR(100),
     admit_date              DATE,
