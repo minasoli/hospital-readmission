@@ -83,23 +83,6 @@ All pages include cross-filtering slicers for Quarter, Hospital, Diagnosis Categ
 
 ---
 
-## DAX Measures
-
-See `powerbi/DAX_measures.md` for the full measure library including readmission rate, CMS benchmark comparison, quarter-over-quarter change, and conditional formatting logic.
-
----
-
-## How to Run This Project
-
-1. Import `data/readmissions.csv` into SQL Server using SSMS Import Wizard or BULK INSERT
-2. Run `sql/01_create_tables.sql` to create the schema
-3. Run `sql/02_transform_load.sql` to populate dimension and fact tables
-4. Connect Power BI Desktop to your SQL Server instance
-5. Use the queries in `sql/03_analysis_queries.sql` as import-mode data sources
-6. Add the DAX measures from `powerbi/DAX_measures.md` to the model
-
----
-
 ## About
 
 Built as part of a healthcare data analytics portfolio demonstrating SQL data modeling, ETL design, and Power BI development. Background includes hands-on experience with EHR systems (MD Synergy, eClinicalWorks) and SSIS ETL workflows in clinical settings.
