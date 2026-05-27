@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital 30-Day Readmission Analysis</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f5f2;color:#1a1a1a;padding:2rem}
+.container{max-width:1100px;margin:0 auto}
+.dash-header{padding-bottom:1rem;border-bottom:1px solid #ddd;margin-bottom:1.5rem}
+.dash-title{font-size:22px;font-weight:500;margin:0 0 4px}
+.dash-sub{font-size:13px;color:#666}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:1.5rem}
+.kpi{background:#fff;border-radius:10px;padding:16px 18px;border:1px solid #e8e8e5}
+.kpi-label{font-size:12px;color:#888;margin-bottom:5px;letter-spacing:.3px}
+.kpi-val{font-size:28px;font-weight:500;line-height:1}
+.kpi-val.warn{color:#a32d2d}
+.kpi-sub{font-size:11px;color:#888;margin-top:5px}
+.badge-above{background:#fcebeb;color:#a32d2d;font-size:11px;padding:2px 8px;border-radius:6px;display:inline-block}
+.chart-box-full{background:#fff;border:1px solid #e8e8e5;border-radius:12px;padding:18px;margin-bottom:1.5rem}
+.chart-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:1.5rem}
+.chart-box{background:#fff;border:1px solid #e8e8e5;border-radius:12px;padding:18px}
+.chart-title{font-size:13px;font-weight:500;margin-bottom:12px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px;font-size:11px;color:#888}
+.legend span{display:flex;align-items:center;gap:4px}
+.legend-sq{width:9px;height:9px;border-radius:2px;flex-shrink:0}
+.footer{font-size:11px;color:#aaa;padding-top:10px;border-top:1px solid #eee;margin-top:1rem}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="dash-header">
+  <h1 class="dash-title">Hospital 30-Day Readmission Analysis</h1>
+  <p class="dash-sub">1,200 patient encounters &middot; FY 2023 &middot; CMS benchmark: 15.5%</p>
+</div>
+
+<div class="kpi-grid">
+  <div class="kpi"><p class="kpi-label">Total encounters</p><p class="kpi-val">1,200</p><p class="kpi-sub">FY 2023</p></div>
+  <div class="kpi"><p class="kpi-label">30-day readmissions</p><p class="kpi-val">314</p><p class="kpi-sub">unique patients</p></div>
+  <div class="kpi"><p class="kpi-label">Readmission rate</p><p class="kpi-val warn">26.2%</p><p class="kpi-sub"><span class="badge-above">+10.7 pts above CMS benchmark</span></p></div>
+  <div class="kpi"><p class="kpi-label">Avg length of stay</p><p class="kpi-val">7.6</p><p class="kpi-sub">days per encounter</p></div>
+</div>
+
+<div class="chart-box-full">
+  <p class="chart-title">Monthly readmission rate trend vs CMS benchmark</p>
+  <div class="legend">
+    <span><span class="legend-sq" style="background:#378add"></span>Readmission rate %</span>
+    <span><span class="legend-sq" style="background:#e24b4a;opacity:.6"></span>CMS benchmark (15.5%)</span>
+  </div>
+  <div style="position:relative;width:100%;height:220px"><canvas id="trendChart"></canvas></div>
+</div>
+
+<div class="chart-row">
+  <div class="chart-box">
+    <p class="chart-title">Readmission rate by hospital</p>
+    <div style="position:relative;width:100%;height:240px"><canvas id="hospChart"></canvas></div>
+  </div>
+  <div class="chart-box">
+    <p class="chart-title">Readmission rate by diagnosis</p>
+    <div style="position:relative;width:100%;height:240px"><canvas id="diagChart"></canvas></div>
+  </div>
+</div>
+
+<div class="chart-row">
+  <div class="chart-box">
+    <p class="chart-title">Readmission rate by age band</p>
+    <div style="position:relative;width:100%;height:220px"><canvas id="ageChart"></canvas></div>
+  </div>
+  <div class="chart-box">
+    <p class="chart-title">Readmission rate by payer</p>
+    <div style="position:relative;width:100%;height:220px"><canvas id="payerChart"></canvas></div>
+  </div>
+</div>
+
+<p class="footer">Synthetic dataset &middot; 1,200 encounters &middot; modeled on CMS HRRP reporting standards &middot; built with SQL Server + Power BI</p>
+</div>
+
+<script>
+const blue='#378add',red='#e24b4a',green='#639922',amber='#ba7517',purple='#534ab7';
+const tc='#888';
+
+new Chart(document.getElementById('trendChart'),{type:'line',data:{labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],datasets:[{label:'Rate',data:[19.8,23.7,29.3,27.6,19.4,26.9,26.0,20.6,28.4,30.8,34.6,26.5],borderColor:blue,backgroundColor:blue+'22',fill:true,tension:.4,pointRadius:3,pointBackgroundColor:blue},{label:'Benchmark',data:[15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5],borderColor:red,borderDash:[5,4],borderWidth:1.5,pointRadius:0,fill:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{color:tc,font:{size:11}}},y:{min:0,max:45,grid:{color:'rgba(0,0,0,.06)'},ticks:{color:tc,font:{size:11},callback:v=>v+'%'}}}}});
+
+new Chart(document.getElementById('hospChart'),{type:'bar',data:{labels:['Lakeside','Riverside','Valley Health','Summit','St. Mary'],datasets:[{data:[22.7,23.3,25.2,29.7,30.0],backgroundColor:[blue+'bb',blue+'bb',blue+'bb',red+'99',red+'bb'],borderRadius:3}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{min:0,max:38,grid:{color:'rgba(0,0,0,.06)'},ticks:{color:tc,font:{size:10},callback:v=>v+'%'}},y:{grid:{display:false},ticks:{color:tc,font:{size:10}}}}}});
+
+new Chart(document.getElementById('diagChart'),{type:'bar',data:{labels:['Heart Failure','AMI','COPD','Diabetes','Pneumonia','Sepsis','Stroke','Hip Fracture'],datasets:[{data:[18.9,18.9,23.7,23.8,25.9,27.8,32.7,35.5],backgroundColor:['#639922bb','#639922bb','#639922bb','#639922bb','#ba751799','#ba7517bb','#e24b4a99','#e24b4abb'],borderRadius:3}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{min:0,max:45,grid:{color:'rgba(0,0,0,.06)'},ticks:{color:tc,font:{size:10},callback:v=>v+'%'}},y:{grid:{display:false},ticks:{color:tc,font:{size:10}}}}}});
+
+new Chart(document.getElementById('ageChart'),{type:'bar',data:{labels:['45-54','55-64','65-74','75-84','85+'],datasets:[{data:[21.5,17.9,23.8,33.8,36.5],backgroundColor:['#ba751755','#ba751777','#ba7517aa','#ba7517dd','#ba7517'],borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{color:tc,font:{size:11}}},y:{min:0,max:50,grid:{color:'rgba(0,0,0,.06)'},ticks:{color:tc,font:{size:11},callback:v=>v+'%'}}}}});
+
+new Chart(document.getElementById('payerChart'),{type:'bar',data:{labels:['Medicare','Self-Pay','Blue Cross','UnitedHealth','Medicaid','Aetna'],datasets:[{data:[24.0,24.1,24.6,26.0,28.0,29.9],backgroundColor:[purple+'66',purple+'77',purple+'88',purple+'99',purple+'bb',purple],borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{color:tc,font:{size:10},maxRotation:30}},y:{min:0,max:38,grid:{color:'rgba(0,0,0,.06)'},ticks:{color:tc,font:{size:11},callback:v=>v+'%'}}}}});
+</script>
+</body>
+</html>

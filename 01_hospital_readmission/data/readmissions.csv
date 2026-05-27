@@ -1,0 +1,1201 @@
+patient_id,hospital,admit_date,discharge_date,length_of_stay,age,gender,primary_diagnosis,payer,discharge_disposition,readmitted_30day,days_to_readmission,attending_physician_id
+1000,Riverside General,2023-11-24,2023-11-26,2,46,M,COPD,Self-Pay,Home,0,,DR143
+1001,St. Mary Medical Center,2023-10-07,2023-10-09,2,82,M,Diabetes,Medicaid,Hospice,0,,DR138
+1002,Lakeside Medical,2023-01-14,2023-01-23,9,57,F,Diabetes,Aetna,Hospice,0,,DR117
+1003,Valley Health,2023-01-04,2023-01-17,13,55,F,COPD,Medicaid,Home Health,0,,DR106
+1004,Valley Health,2023-02-17,2023-02-24,7,51,F,Heart Failure,Self-Pay,AMA,0,,DR134
+1005,Lakeside Medical,2023-03-05,2023-03-12,7,50,F,Diabetes,Self-Pay,Home,0,,DR102
+1006,Riverside General,2023-12-05,2023-12-09,4,63,M,AMI,Blue Cross,AMA,0,,DR140
+1007,Valley Health,2023-07-06,2023-07-09,3,68,M,COPD,UnitedHealth,SNF,0,,DR110
+1008,Lakeside Medical,2023-08-25,2023-09-01,7,62,M,Sepsis,Medicare,SNF,0,,DR102
+1009,Lakeside Medical,2023-06-11,2023-06-18,7,62,F,Diabetes,Self-Pay,AMA,1,30,DR125
+1010,Riverside General,2023-11-26,2023-12-04,8,54,F,AMI,UnitedHealth,AMA,0,,DR123
+1011,St. Mary Medical Center,2023-04-23,2023-04-26,3,77,M,COPD,Self-Pay,SNF,0,,DR150
+1012,Lakeside Medical,2023-12-15,2023-12-22,7,83,F,Hip Fracture,UnitedHealth,Home,1,13,DR143
+1013,Valley Health,2023-02-28,2023-03-11,11,79,M,Hip Fracture,Aetna,SNF,0,,DR129
+1014,Riverside General,2023-01-02,2023-01-14,12,61,M,Hip Fracture,Self-Pay,Hospice,0,,DR138
+1015,Lakeside Medical,2023-04-12,2023-04-15,3,68,M,Sepsis,Aetna,Home,0,,DR107
+1016,Riverside General,2023-07-05,2023-07-19,14,64,M,Pneumonia,Self-Pay,AMA,0,,DR104
+1017,Lakeside Medical,2023-09-30,2023-10-13,13,53,M,Hip Fracture,UnitedHealth,Hospice,1,16,DR127
+1018,Summit Hospital,2023-04-19,2023-04-28,9,89,F,Stroke,UnitedHealth,AMA,1,10,DR107
+1019,Lakeside Medical,2023-05-07,2023-05-11,4,49,M,Diabetes,Medicare,Home,0,,DR145
+1020,Valley Health,2023-11-20,2023-11-21,1,59,M,Diabetes,Blue Cross,AMA,1,2,DR113
+1021,Riverside General,2023-10-04,2023-10-07,3,81,F,AMI,Medicaid,Home,0,,DR106
+1022,Summit Hospital,2023-12-04,2023-12-11,7,67,M,Pneumonia,Medicare,AMA,0,,DR146
+1023,Riverside General,2023-06-23,2023-07-06,13,51,F,COPD,Aetna,SNF,0,,DR117
+1024,Lakeside Medical,2023-08-25,2023-08-29,4,49,M,Heart Failure,Self-Pay,Hospice,0,,DR100
+1025,Summit Hospital,2023-02-17,2023-03-02,13,60,M,AMI,Medicare,SNF,1,16,DR124
+1026,Summit Hospital,2023-01-02,2023-01-09,7,61,F,AMI,Self-Pay,Hospice,0,,DR142
+1027,St. Mary Medical Center,2023-09-07,2023-09-10,3,57,M,Sepsis,Medicare,Home,0,,DR137
+1028,St. Mary Medical Center,2023-09-02,2023-09-11,9,78,M,Pneumonia,UnitedHealth,Home,1,17,DR143
+1029,Lakeside Medical,2023-05-01,2023-05-08,7,52,M,Heart Failure,UnitedHealth,Home,0,,DR126
+1030,Valley Health,2023-12-03,2023-12-13,10,81,M,Sepsis,Medicaid,Home Health,0,,DR125
+1031,St. Mary Medical Center,2023-03-09,2023-03-20,11,86,M,Stroke,UnitedHealth,Hospice,1,11,DR106
+1032,Riverside General,2023-02-07,2023-02-16,9,58,F,Pneumonia,Medicaid,Home Health,0,,DR118
+1033,Lakeside Medical,2023-03-22,2023-03-30,8,79,M,Hip Fracture,Self-Pay,Home,0,,DR108
+1034,Riverside General,2023-05-16,2023-05-18,2,51,F,Hip Fracture,UnitedHealth,SNF,0,,DR145
+1035,Valley Health,2023-06-25,2023-06-29,4,88,F,Hip Fracture,Medicare,Home,0,,DR140
+1036,Riverside General,2023-08-05,2023-08-19,14,62,F,COPD,Self-Pay,AMA,1,11,DR135
+1037,Riverside General,2023-12-28,2024-01-04,7,80,M,Sepsis,UnitedHealth,Hospice,1,3,DR109
+1038,St. Mary Medical Center,2023-08-09,2023-08-12,3,47,F,Diabetes,Self-Pay,SNF,0,,DR142
+1039,Summit Hospital,2023-02-22,2023-02-28,6,80,M,Diabetes,Medicaid,SNF,0,,DR126
+1040,Summit Hospital,2023-01-13,2023-01-16,3,66,M,Hip Fracture,Medicaid,Home,0,,DR124
+1041,Summit Hospital,2023-01-20,2023-02-03,14,75,F,Hip Fracture,Medicaid,SNF,1,27,DR101
+1042,St. Mary Medical Center,2023-12-04,2023-12-08,4,70,F,Sepsis,Self-Pay,Hospice,0,,DR125
+1043,St. Mary Medical Center,2023-12-14,2023-12-28,14,79,F,COPD,UnitedHealth,Home Health,1,1,DR102
+1044,Valley Health,2023-02-25,2023-03-07,10,72,F,Pneumonia,Aetna,Hospice,0,,DR112
+1045,Lakeside Medical,2023-05-11,2023-05-12,1,90,M,Sepsis,Aetna,Home,0,,DR142
+1046,St. Mary Medical Center,2023-06-19,2023-06-29,10,65,F,Hip Fracture,Self-Pay,AMA,0,,DR120
+1047,Riverside General,2023-07-26,2023-08-07,12,63,F,AMI,Self-Pay,SNF,0,,DR139
+1048,St. Mary Medical Center,2023-10-19,2023-10-24,5,70,F,Hip Fracture,Medicaid,AMA,0,,DR150
+1049,Summit Hospital,2023-10-24,2023-11-03,10,86,M,Stroke,Self-Pay,SNF,1,15,DR142
+1050,Lakeside Medical,2023-02-13,2023-02-18,5,77,F,Pneumonia,Medicaid,Home Health,0,,DR114
+1051,Lakeside Medical,2023-04-12,2023-04-15,3,46,M,Stroke,Aetna,Hospice,1,16,DR112
+1052,Riverside General,2023-12-23,2023-12-30,7,76,M,Pneumonia,Aetna,SNF,0,,DR111
+1053,St. Mary Medical Center,2023-12-23,2024-01-01,9,74,F,COPD,Aetna,Hospice,1,8,DR135
+1054,Lakeside Medical,2023-11-01,2023-11-07,6,73,F,Stroke,Medicaid,AMA,0,,DR128
+1055,Valley Health,2023-05-13,2023-05-26,13,60,F,Diabetes,Blue Cross,AMA,0,,DR104
+1056,Lakeside Medical,2023-05-27,2023-05-31,4,62,M,COPD,Medicaid,SNF,0,,DR124
+1057,Summit Hospital,2023-12-22,2023-12-25,3,90,F,Stroke,Aetna,Home,1,14,DR113
+1058,St. Mary Medical Center,2023-08-04,2023-08-11,7,82,F,Stroke,Medicare,Home Health,0,,DR119
+1059,Lakeside Medical,2023-07-19,2023-08-02,14,71,M,Stroke,Medicaid,Home Health,0,,DR127
+1060,Summit Hospital,2023-09-06,2023-09-07,1,69,M,Stroke,Medicaid,Hospice,0,,DR134
+1061,St. Mary Medical Center,2023-01-14,2023-01-21,7,82,M,AMI,Medicaid,AMA,0,,DR111
+1062,Summit Hospital,2023-01-26,2023-01-31,5,69,F,Sepsis,Aetna,Home Health,0,,DR148
+1063,Lakeside Medical,2023-08-04,2023-08-09,5,50,M,Sepsis,Medicaid,Home,0,,DR149
+1064,Riverside General,2023-11-30,2023-12-01,1,46,M,COPD,Medicaid,SNF,0,,DR130
+1065,Summit Hospital,2023-12-09,2023-12-11,2,81,F,Sepsis,Medicaid,Hospice,0,,DR138
+1066,St. Mary Medical Center,2023-02-28,2023-03-13,13,55,M,Hip Fracture,UnitedHealth,AMA,0,,DR125
+1067,Riverside General,2023-04-12,2023-04-14,2,82,M,Hip Fracture,Self-Pay,Hospice,0,,DR107
+1068,Summit Hospital,2023-10-17,2023-10-30,13,47,F,Pneumonia,UnitedHealth,Home Health,0,,DR100
+1069,Summit Hospital,2023-08-04,2023-08-18,14,76,M,AMI,Medicaid,Hospice,1,12,DR141
+1070,Summit Hospital,2023-05-19,2023-05-29,10,79,F,Hip Fracture,Blue Cross,SNF,0,,DR105
+1071,Lakeside Medical,2023-05-23,2023-05-31,8,60,F,Sepsis,Medicare,AMA,0,,DR120
+1072,Valley Health,2023-04-04,2023-04-12,8,58,F,Hip Fracture,UnitedHealth,Home Health,0,,DR135
+1073,Summit Hospital,2023-01-06,2023-01-15,9,57,F,Diabetes,Self-Pay,AMA,1,24,DR141
+1074,St. Mary Medical Center,2023-12-31,2024-01-08,8,73,F,Diabetes,Aetna,SNF,0,,DR119
+1075,Lakeside Medical,2023-12-06,2023-12-16,10,68,F,AMI,Self-Pay,Hospice,0,,DR121
+1076,Riverside General,2023-06-30,2023-07-12,12,74,M,Diabetes,Blue Cross,Home,1,9,DR147
+1077,Summit Hospital,2023-10-02,2023-10-15,13,89,F,Hip Fracture,Medicare,SNF,1,7,DR118
+1078,Lakeside Medical,2023-04-27,2023-05-03,6,56,M,Hip Fracture,Medicare,Home,0,,DR135
+1079,Summit Hospital,2023-05-30,2023-06-11,12,53,M,Heart Failure,UnitedHealth,Home Health,0,,DR130
+1080,Valley Health,2023-09-03,2023-09-11,8,66,F,Pneumonia,Medicare,AMA,1,2,DR131
+1081,Riverside General,2023-02-07,2023-02-17,10,85,M,Hip Fracture,Medicare,SNF,0,,DR107
+1082,Lakeside Medical,2023-10-13,2023-10-26,13,71,M,AMI,Aetna,AMA,0,,DR119
+1083,St. Mary Medical Center,2023-10-29,2023-11-05,7,64,M,Diabetes,Self-Pay,SNF,0,,DR116
+1084,Lakeside Medical,2023-12-05,2023-12-07,2,55,M,COPD,Medicare,AMA,0,,DR128
+1085,Valley Health,2023-12-19,2023-12-29,10,75,F,Stroke,Medicare,SNF,1,8,DR116
+1086,Riverside General,2023-11-17,2023-11-27,10,87,F,Pneumonia,UnitedHealth,SNF,0,,DR141
+1087,Valley Health,2023-03-18,2023-03-23,5,54,F,Stroke,Medicare,AMA,1,6,DR144
+1088,Lakeside Medical,2023-06-05,2023-06-17,12,70,F,Stroke,Medicare,Hospice,0,,DR102
+1089,St. Mary Medical Center,2023-08-10,2023-08-22,12,65,M,Diabetes,Self-Pay,Hospice,0,,DR137
+1090,Lakeside Medical,2023-01-11,2023-01-24,13,88,M,COPD,Aetna,Hospice,0,,DR141
+1091,Summit Hospital,2023-08-15,2023-08-20,5,56,F,Pneumonia,Aetna,Home Health,0,,DR126
+1092,Valley Health,2023-06-20,2023-06-26,6,87,F,Stroke,Blue Cross,AMA,1,6,DR148
+1093,Valley Health,2023-10-09,2023-10-10,1,74,M,AMI,UnitedHealth,Home,1,9,DR142
+1094,Valley Health,2023-10-05,2023-10-13,8,71,F,Stroke,Medicare,SNF,1,17,DR117
+1095,Summit Hospital,2023-10-09,2023-10-12,3,63,M,Heart Failure,Self-Pay,Hospice,0,,DR115
+1096,Lakeside Medical,2023-12-30,2024-01-02,3,64,F,Pneumonia,Medicaid,Home,0,,DR129
+1097,Valley Health,2023-03-02,2023-03-13,11,54,F,AMI,Aetna,AMA,0,,DR115
+1098,Lakeside Medical,2023-08-22,2023-08-31,9,54,M,Pneumonia,Blue Cross,AMA,0,,DR121
+1099,Valley Health,2023-09-17,2023-09-22,5,45,F,COPD,Aetna,Hospice,0,,DR130
+1100,Summit Hospital,2023-06-26,2023-07-02,6,80,F,Sepsis,Medicaid,SNF,0,,DR136
+1101,Summit Hospital,2023-07-16,2023-07-20,4,71,F,AMI,Self-Pay,SNF,1,24,DR131
+1102,Valley Health,2023-01-19,2023-01-22,3,77,M,Stroke,Medicare,Hospice,0,,DR129
+1103,Riverside General,2023-01-08,2023-01-20,12,54,M,Stroke,Blue Cross,Home Health,0,,DR139
+1104,Lakeside Medical,2023-12-21,2023-12-28,7,86,F,Sepsis,Self-Pay,AMA,1,11,DR134
+1105,Valley Health,2023-01-19,2023-01-29,10,49,M,Pneumonia,Aetna,Home,0,,DR148
+1106,Valley Health,2023-11-21,2023-12-03,12,51,M,Heart Failure,Blue Cross,Home,0,,DR118
+1107,Summit Hospital,2023-07-03,2023-07-09,6,72,M,COPD,Medicaid,Home,1,17,DR139
+1108,Lakeside Medical,2023-07-15,2023-07-25,10,88,M,Diabetes,Aetna,Home Health,1,30,DR129
+1109,Summit Hospital,2023-05-11,2023-05-22,11,45,F,COPD,Medicare,AMA,0,,DR122
+1110,Valley Health,2023-10-28,2023-11-02,5,85,F,Hip Fracture,Medicaid,AMA,0,,DR130
+1111,Lakeside Medical,2023-02-24,2023-02-28,4,69,F,Hip Fracture,Medicare,AMA,0,,DR117
+1112,St. Mary Medical Center,2023-01-05,2023-01-15,10,88,F,Hip Fracture,Medicaid,Hospice,0,,DR122
+1113,Riverside General,2023-04-23,2023-05-04,11,57,M,Heart Failure,Blue Cross,AMA,0,,DR102
+1114,Valley Health,2023-10-24,2023-10-30,6,53,F,COPD,Medicaid,SNF,1,10,DR150
+1115,Valley Health,2023-10-04,2023-10-10,6,78,M,Hip Fracture,Aetna,Home Health,0,,DR147
+1116,St. Mary Medical Center,2023-06-23,2023-07-06,13,52,M,Diabetes,Self-Pay,AMA,0,,DR135
+1117,St. Mary Medical Center,2023-07-07,2023-07-09,2,70,F,Sepsis,Self-Pay,Home Health,1,18,DR137
+1118,St. Mary Medical Center,2023-07-15,2023-07-29,14,85,M,Stroke,Medicare,Hospice,0,,DR135
+1119,Summit Hospital,2023-06-17,2023-06-27,10,59,F,AMI,Medicare,SNF,0,,DR102
+1120,Lakeside Medical,2023-01-20,2023-01-25,5,76,M,AMI,Aetna,Home Health,1,8,DR142
+1121,Riverside General,2023-12-23,2024-01-01,9,71,F,Pneumonia,Aetna,Hospice,0,,DR126
+1122,Summit Hospital,2023-05-24,2023-05-25,1,89,M,Sepsis,Medicare,Home Health,1,15,DR134
+1123,Riverside General,2023-11-27,2023-12-03,6,48,M,Stroke,Medicare,SNF,0,,DR141
+1124,Riverside General,2023-11-24,2023-12-04,10,46,M,Diabetes,Medicare,Hospice,1,11,DR113
+1125,Riverside General,2023-10-28,2023-11-01,4,59,M,Hip Fracture,Medicaid,SNF,0,,DR134
+1126,St. Mary Medical Center,2023-05-09,2023-05-22,13,56,M,Heart Failure,Blue Cross,SNF,1,28,DR137
+1127,Riverside General,2023-06-15,2023-06-16,1,56,F,Pneumonia,Self-Pay,Home,0,,DR130
+1128,St. Mary Medical Center,2023-08-18,2023-08-31,13,68,F,Diabetes,UnitedHealth,Home,0,,DR146
+1129,St. Mary Medical Center,2023-12-04,2023-12-13,9,64,M,Stroke,Aetna,AMA,0,,DR143
+1130,St. Mary Medical Center,2023-02-25,2023-03-05,8,90,M,Sepsis,UnitedHealth,SNF,0,,DR104
+1131,Lakeside Medical,2023-03-06,2023-03-11,5,84,F,AMI,UnitedHealth,Hospice,0,,DR118
+1132,St. Mary Medical Center,2023-08-21,2023-08-30,9,83,M,AMI,Aetna,SNF,0,,DR126
+1133,St. Mary Medical Center,2023-06-23,2023-07-07,14,74,F,AMI,Blue Cross,Home Health,0,,DR123
+1134,St. Mary Medical Center,2023-03-20,2023-03-31,11,75,M,AMI,Medicare,Home Health,1,27,DR108
+1135,Lakeside Medical,2023-10-12,2023-10-13,1,82,F,Pneumonia,Aetna,Home Health,0,,DR142
+1136,Lakeside Medical,2023-08-05,2023-08-19,14,48,F,Sepsis,Medicare,Hospice,0,,DR132
+1137,St. Mary Medical Center,2023-04-19,2023-04-22,3,87,F,Sepsis,Medicare,Home Health,0,,DR136
+1138,Lakeside Medical,2023-04-26,2023-05-09,13,72,M,Hip Fracture,Medicare,SNF,0,,DR117
+1139,Valley Health,2023-12-26,2024-01-08,13,64,M,COPD,Medicaid,Hospice,0,,DR142
+1140,St. Mary Medical Center,2023-07-25,2023-07-27,2,54,M,Diabetes,Aetna,AMA,0,,DR129
+1141,Valley Health,2023-06-24,2023-06-27,3,68,M,Heart Failure,Medicaid,SNF,0,,DR148
+1142,Summit Hospital,2023-11-13,2023-11-14,1,88,F,Stroke,Aetna,Home Health,1,15,DR113
+1143,Valley Health,2023-09-20,2023-09-22,2,67,F,Hip Fracture,Medicare,SNF,0,,DR125
+1144,Riverside General,2023-11-03,2023-11-04,1,45,M,Hip Fracture,Blue Cross,Home Health,0,,DR107
+1145,Lakeside Medical,2023-01-04,2023-01-12,8,72,M,Sepsis,Medicare,AMA,1,13,DR147
+1146,St. Mary Medical Center,2023-01-22,2023-01-29,7,46,F,AMI,UnitedHealth,AMA,0,,DR145
+1147,Valley Health,2023-11-24,2023-12-01,7,63,M,Stroke,Self-Pay,Home Health,1,1,DR105
+1148,Lakeside Medical,2023-08-12,2023-08-26,14,51,F,Pneumonia,Aetna,Home Health,0,,DR147
+1149,St. Mary Medical Center,2023-06-23,2023-06-27,4,66,M,Diabetes,Blue Cross,Home Health,0,,DR146
+1150,Riverside General,2023-11-27,2023-12-11,14,54,F,Diabetes,Medicaid,Hospice,0,,DR109
+1151,Summit Hospital,2023-12-02,2023-12-04,2,56,F,Stroke,Self-Pay,Hospice,0,,DR141
+1152,Valley Health,2023-11-22,2023-12-02,10,65,M,Stroke,Medicare,AMA,0,,DR128
+1153,Valley Health,2023-11-20,2023-11-25,5,62,M,Hip Fracture,Aetna,AMA,0,,DR102
+1154,St. Mary Medical Center,2023-01-30,2023-02-05,6,63,F,Stroke,UnitedHealth,Hospice,1,28,DR150
+1155,Valley Health,2023-01-22,2023-01-30,8,81,F,COPD,Medicare,AMA,0,,DR106
+1156,Riverside General,2023-06-25,2023-07-07,12,50,M,Diabetes,Self-Pay,AMA,0,,DR128
+1157,Valley Health,2023-09-26,2023-10-05,9,84,F,AMI,Blue Cross,Hospice,1,12,DR103
+1158,Lakeside Medical,2023-11-20,2023-12-01,11,66,F,Hip Fracture,Blue Cross,Hospice,1,4,DR109
+1159,Valley Health,2023-06-20,2023-06-22,2,82,F,AMI,Medicaid,Hospice,0,,DR145
+1160,Valley Health,2023-02-13,2023-02-18,5,80,M,Pneumonia,Self-Pay,AMA,0,,DR132
+1161,Riverside General,2023-07-05,2023-07-06,1,68,F,Stroke,Medicaid,SNF,0,,DR108
+1162,St. Mary Medical Center,2023-03-21,2023-03-23,2,63,M,Sepsis,UnitedHealth,SNF,0,,DR138
+1163,Lakeside Medical,2023-07-12,2023-07-15,3,55,M,Stroke,Medicare,AMA,0,,DR123
+1164,Lakeside Medical,2023-12-13,2023-12-25,12,60,F,Stroke,Medicaid,Hospice,0,,DR115
+1165,Riverside General,2023-06-08,2023-06-21,13,75,F,Stroke,Aetna,Home Health,0,,DR149
+1166,Riverside General,2023-07-15,2023-07-24,9,78,M,COPD,Blue Cross,Home,0,,DR141
+1167,St. Mary Medical Center,2023-09-04,2023-09-18,14,68,M,Hip Fracture,Medicare,SNF,0,,DR117
+1168,St. Mary Medical Center,2023-08-19,2023-08-28,9,54,M,Stroke,Blue Cross,Home,0,,DR126
+1169,Summit Hospital,2023-01-28,2023-02-04,7,77,M,Sepsis,Medicaid,Home,0,,DR120
+1170,Riverside General,2023-02-20,2023-03-06,14,90,M,Heart Failure,Blue Cross,AMA,0,,DR144
+1171,Lakeside Medical,2023-03-13,2023-03-26,13,90,M,Pneumonia,Medicare,Home Health,0,,DR113
+1172,St. Mary Medical Center,2023-03-18,2023-03-27,9,83,F,Diabetes,Blue Cross,Home,0,,DR103
+1173,Summit Hospital,2023-05-03,2023-05-10,7,85,M,Pneumonia,Aetna,Hospice,0,,DR134
+1174,Riverside General,2023-01-09,2023-01-20,11,77,F,AMI,Medicare,Hospice,0,,DR122
+1175,St. Mary Medical Center,2023-05-04,2023-05-14,10,71,F,Pneumonia,UnitedHealth,Hospice,1,22,DR132
+1176,Summit Hospital,2023-09-17,2023-09-26,9,46,M,AMI,Blue Cross,Home Health,0,,DR147
+1177,St. Mary Medical Center,2023-01-09,2023-01-15,6,49,F,COPD,Medicare,Home Health,0,,DR134
+1178,Summit Hospital,2023-06-23,2023-07-07,14,86,F,COPD,Medicaid,Home,1,25,DR145
+1179,Riverside General,2023-08-23,2023-08-24,1,63,M,Sepsis,Blue Cross,Hospice,0,,DR125
+1180,Riverside General,2023-10-06,2023-10-14,8,61,F,Sepsis,Medicare,Home Health,1,21,DR117
+1181,Summit Hospital,2023-03-05,2023-03-18,13,68,F,AMI,Blue Cross,SNF,0,,DR131
+1182,Lakeside Medical,2023-12-21,2023-12-29,8,68,F,Pneumonia,Self-Pay,AMA,0,,DR105
+1183,Valley Health,2023-08-09,2023-08-19,10,56,M,Pneumonia,Blue Cross,Home Health,0,,DR119
+1184,Summit Hospital,2023-08-17,2023-08-27,10,90,F,Stroke,Medicare,Home Health,1,23,DR139
+1185,St. Mary Medical Center,2023-08-11,2023-08-16,5,85,M,AMI,Blue Cross,Hospice,0,,DR147
+1186,Summit Hospital,2023-12-14,2023-12-17,3,46,M,COPD,Medicare,SNF,1,20,DR149
+1187,Lakeside Medical,2023-11-27,2023-12-03,6,68,M,COPD,Self-Pay,AMA,0,,DR123
+1188,Lakeside Medical,2023-07-10,2023-07-18,8,49,F,AMI,Blue Cross,Home Health,0,,DR115
+1189,Summit Hospital,2023-02-28,2023-03-01,1,56,M,Hip Fracture,Blue Cross,AMA,0,,DR113
+1190,Summit Hospital,2023-11-10,2023-11-15,5,89,M,Pneumonia,Medicaid,Home,0,,DR128
+1191,Valley Health,2023-03-30,2023-04-11,12,73,F,Pneumonia,UnitedHealth,Hospice,0,,DR118
+1192,Riverside General,2023-06-03,2023-06-17,14,55,F,Diabetes,Medicare,SNF,0,,DR150
+1193,Lakeside Medical,2023-03-13,2023-03-17,4,76,F,Stroke,UnitedHealth,SNF,1,18,DR139
+1194,Summit Hospital,2023-02-14,2023-02-16,2,64,F,AMI,UnitedHealth,Home,0,,DR108
+1195,Lakeside Medical,2023-06-12,2023-06-23,11,49,F,COPD,UnitedHealth,Hospice,0,,DR111
+1196,St. Mary Medical Center,2023-03-08,2023-03-15,7,77,M,COPD,Blue Cross,SNF,0,,DR110
+1197,Lakeside Medical,2023-06-15,2023-06-27,12,59,F,Pneumonia,Blue Cross,SNF,0,,DR140
+1198,Lakeside Medical,2023-10-10,2023-10-15,5,53,M,COPD,UnitedHealth,Hospice,0,,DR109
+1199,Lakeside Medical,2023-03-29,2023-04-09,11,84,F,Heart Failure,Medicare,Home,0,,DR102
+1200,Lakeside Medical,2023-11-25,2023-12-08,13,81,F,Heart Failure,Aetna,Hospice,1,7,DR118
+1201,Summit Hospital,2023-11-25,2023-11-30,5,75,F,Stroke,Medicare,Home,1,26,DR110
+1202,Valley Health,2023-08-14,2023-08-21,7,75,M,Sepsis,Self-Pay,Home Health,0,,DR146
+1203,Lakeside Medical,2023-06-26,2023-07-03,7,53,M,Sepsis,Medicaid,AMA,0,,DR107
+1204,Valley Health,2023-05-17,2023-05-25,8,60,F,AMI,Medicaid,SNF,1,2,DR120
+1205,Summit Hospital,2023-10-23,2023-11-04,12,65,F,Stroke,Blue Cross,AMA,1,6,DR101
+1206,Riverside General,2023-02-16,2023-02-23,7,77,M,Sepsis,Medicare,Home,0,,DR118
+1207,Valley Health,2023-09-11,2023-09-21,10,86,M,Pneumonia,Aetna,SNF,0,,DR116
+1208,Summit Hospital,2023-07-07,2023-07-20,13,70,M,Diabetes,Blue Cross,Hospice,0,,DR118
+1209,Lakeside Medical,2023-02-07,2023-02-14,7,77,F,Pneumonia,Medicaid,Home,0,,DR125
+1210,Valley Health,2023-07-11,2023-07-24,13,66,M,Diabetes,UnitedHealth,Hospice,0,,DR125
+1211,Valley Health,2023-09-14,2023-09-15,1,47,F,Stroke,Medicaid,Hospice,1,23,DR132
+1212,Lakeside Medical,2023-03-13,2023-03-19,6,84,F,Sepsis,UnitedHealth,Hospice,1,13,DR134
+1213,St. Mary Medical Center,2023-09-08,2023-09-20,12,81,F,Sepsis,Self-Pay,Home,1,27,DR126
+1214,Lakeside Medical,2023-10-26,2023-10-31,5,89,F,Hip Fracture,Self-Pay,Hospice,0,,DR136
+1215,Riverside General,2023-04-27,2023-05-09,12,48,F,COPD,Self-Pay,SNF,0,,DR102
+1216,Valley Health,2023-10-21,2023-11-02,12,52,F,COPD,Aetna,SNF,1,15,DR126
+1217,St. Mary Medical Center,2023-09-14,2023-09-27,13,84,M,Diabetes,UnitedHealth,Home Health,0,,DR142
+1218,Riverside General,2023-09-02,2023-09-11,9,69,F,Sepsis,UnitedHealth,Home Health,0,,DR143
+1219,Riverside General,2023-12-15,2023-12-26,11,89,M,Hip Fracture,UnitedHealth,Home Health,1,16,DR114
+1220,Summit Hospital,2023-06-02,2023-06-15,13,63,F,Stroke,Blue Cross,Hospice,0,,DR150
+1221,Lakeside Medical,2023-05-21,2023-05-26,5,52,F,AMI,Blue Cross,SNF,0,,DR118
+1222,Summit Hospital,2023-01-22,2023-01-27,5,90,F,Stroke,Medicaid,SNF,1,30,DR134
+1223,Lakeside Medical,2023-05-19,2023-05-28,9,89,M,Diabetes,Medicare,Hospice,1,4,DR114
+1224,Summit Hospital,2023-11-23,2023-11-27,4,48,M,COPD,Medicare,Hospice,1,11,DR110
+1225,Riverside General,2023-07-28,2023-08-08,11,75,F,Sepsis,Blue Cross,Home,0,,DR149
+1226,St. Mary Medical Center,2023-02-15,2023-02-26,11,81,M,AMI,Medicaid,Home,1,24,DR125
+1227,St. Mary Medical Center,2023-09-11,2023-09-14,3,63,F,Pneumonia,Blue Cross,Home Health,0,,DR129
+1228,Riverside General,2023-11-25,2023-12-04,9,78,F,Hip Fracture,Medicaid,Home,0,,DR121
+1229,Riverside General,2023-03-25,2023-04-06,12,74,M,Sepsis,Blue Cross,Hospice,0,,DR143
+1230,Summit Hospital,2023-04-09,2023-04-12,3,84,F,Sepsis,Medicare,AMA,0,,DR142
+1231,Riverside General,2023-02-18,2023-02-21,3,53,M,Hip Fracture,Aetna,SNF,0,,DR128
+1232,Lakeside Medical,2023-05-17,2023-05-23,6,64,M,Hip Fracture,Self-Pay,Home Health,0,,DR144
+1233,Riverside General,2023-05-01,2023-05-02,1,87,F,Hip Fracture,Self-Pay,Home,1,10,DR140
+1234,Summit Hospital,2023-06-01,2023-06-07,6,84,M,Stroke,Self-Pay,Hospice,1,5,DR123
+1235,Lakeside Medical,2023-08-01,2023-08-13,12,80,M,Diabetes,Self-Pay,Hospice,0,,DR150
+1236,Valley Health,2023-02-11,2023-02-20,9,73,M,Pneumonia,Medicare,Hospice,0,,DR132
+1237,Lakeside Medical,2023-04-14,2023-04-24,10,79,F,Pneumonia,Self-Pay,SNF,1,11,DR145
+1238,Summit Hospital,2023-10-26,2023-11-03,8,50,M,Stroke,Medicaid,Hospice,0,,DR126
+1239,Valley Health,2023-08-22,2023-09-01,10,48,M,AMI,Blue Cross,Home,0,,DR147
+1240,St. Mary Medical Center,2023-04-22,2023-05-02,10,49,M,Pneumonia,Aetna,Home,1,12,DR118
+1241,Summit Hospital,2023-07-29,2023-08-01,3,53,F,AMI,Aetna,AMA,0,,DR124
+1242,Riverside General,2023-02-11,2023-02-22,11,87,F,Pneumonia,Medicaid,Hospice,0,,DR125
+1243,St. Mary Medical Center,2023-09-28,2023-10-01,3,59,F,Stroke,Self-Pay,Hospice,0,,DR127
+1244,Valley Health,2023-09-30,2023-10-07,7,59,M,Hip Fracture,Medicaid,Home,0,,DR102
+1245,St. Mary Medical Center,2023-12-05,2023-12-12,7,84,M,Diabetes,Medicare,Home,0,,DR138
+1246,St. Mary Medical Center,2023-01-18,2023-01-26,8,83,M,Heart Failure,Aetna,AMA,0,,DR114
+1247,Riverside General,2023-10-04,2023-10-08,4,48,F,Sepsis,Medicaid,Home Health,1,10,DR109
+1248,Valley Health,2023-12-05,2023-12-14,9,59,M,COPD,Self-Pay,AMA,0,,DR135
+1249,Summit Hospital,2023-09-11,2023-09-12,1,67,F,AMI,Aetna,SNF,0,,DR119
+1250,Riverside General,2023-07-12,2023-07-15,3,79,F,COPD,Aetna,Home,0,,DR135
+1251,Summit Hospital,2023-07-31,2023-08-07,7,80,M,Hip Fracture,Medicaid,Home Health,0,,DR141
+1252,Riverside General,2023-02-10,2023-02-18,8,68,M,Hip Fracture,Aetna,Hospice,1,24,DR138
+1253,Lakeside Medical,2023-01-21,2023-02-04,14,49,M,Stroke,Medicaid,Home Health,1,25,DR119
+1254,St. Mary Medical Center,2023-01-08,2023-01-12,4,57,F,Diabetes,Self-Pay,Hospice,0,,DR145
+1255,Valley Health,2023-04-15,2023-04-22,7,60,F,Stroke,UnitedHealth,Home Health,0,,DR119
+1256,Summit Hospital,2023-05-14,2023-05-20,6,77,M,Stroke,Blue Cross,SNF,0,,DR123
+1257,Riverside General,2023-06-10,2023-06-17,7,47,M,Heart Failure,Blue Cross,Hospice,0,,DR137
+1258,Riverside General,2023-10-24,2023-11-05,12,71,F,Diabetes,Aetna,Hospice,0,,DR115
+1259,Valley Health,2023-09-13,2023-09-22,9,86,F,Stroke,Self-Pay,AMA,0,,DR129
+1260,Lakeside Medical,2023-03-28,2023-04-09,12,67,F,COPD,UnitedHealth,Home,1,24,DR133
+1261,St. Mary Medical Center,2023-01-18,2023-02-01,14,49,M,AMI,Medicaid,SNF,0,,DR104
+1262,Summit Hospital,2023-12-29,2024-01-01,3,45,F,Heart Failure,UnitedHealth,Hospice,0,,DR130
+1263,Summit Hospital,2023-12-04,2023-12-12,8,46,M,Heart Failure,UnitedHealth,Home Health,1,18,DR134
+1264,Summit Hospital,2023-05-27,2023-05-28,1,77,M,Pneumonia,Medicare,Hospice,0,,DR109
+1265,Valley Health,2023-05-04,2023-05-08,4,84,F,AMI,Medicare,Home Health,0,,DR125
+1266,Riverside General,2023-08-24,2023-09-03,10,60,F,Pneumonia,Self-Pay,Home,0,,DR105
+1267,St. Mary Medical Center,2023-07-27,2023-08-03,7,69,M,COPD,Medicare,AMA,0,,DR127
+1268,St. Mary Medical Center,2023-11-27,2023-12-10,13,66,M,Diabetes,Medicaid,Hospice,0,,DR130
+1269,Valley Health,2023-05-19,2023-05-20,1,49,M,COPD,Blue Cross,Home,0,,DR113
+1270,St. Mary Medical Center,2023-10-28,2023-10-31,3,90,F,COPD,UnitedHealth,SNF,0,,DR136
+1271,Riverside General,2023-07-19,2023-07-30,11,79,M,Sepsis,Medicare,Home,1,25,DR127
+1272,Lakeside Medical,2023-04-29,2023-05-13,14,49,F,Sepsis,Medicare,Home Health,0,,DR150
+1273,Summit Hospital,2023-08-19,2023-08-27,8,59,F,COPD,Self-Pay,Hospice,0,,DR142
+1274,St. Mary Medical Center,2023-07-14,2023-07-16,2,84,M,Hip Fracture,Medicaid,AMA,1,8,DR145
+1275,St. Mary Medical Center,2023-11-21,2023-11-24,3,69,M,Heart Failure,Blue Cross,AMA,0,,DR123
+1276,Summit Hospital,2023-05-19,2023-05-21,2,53,F,Pneumonia,Medicare,Home,1,14,DR122
+1277,Valley Health,2023-10-11,2023-10-13,2,83,F,Heart Failure,Blue Cross,AMA,0,,DR124
+1278,Riverside General,2023-02-13,2023-02-25,12,80,M,AMI,Medicaid,SNF,0,,DR117
+1279,Summit Hospital,2023-06-04,2023-06-09,5,76,F,AMI,Blue Cross,AMA,1,6,DR150
+1280,Summit Hospital,2023-02-09,2023-02-15,6,61,M,Stroke,Medicare,SNF,0,,DR119
+1281,Summit Hospital,2023-01-04,2023-01-11,7,66,F,Stroke,Blue Cross,AMA,0,,DR141
+1282,Riverside General,2023-11-01,2023-11-04,3,64,F,Sepsis,Medicaid,AMA,0,,DR120
+1283,Lakeside Medical,2023-05-30,2023-06-11,12,89,M,Sepsis,Aetna,Home Health,0,,DR150
+1284,Riverside General,2023-07-21,2023-07-27,6,52,M,Heart Failure,Self-Pay,AMA,0,,DR145
+1285,St. Mary Medical Center,2023-04-18,2023-04-26,8,63,F,Stroke,Medicaid,Home Health,0,,DR115
+1286,Summit Hospital,2023-05-10,2023-05-21,11,54,M,Stroke,UnitedHealth,AMA,0,,DR137
+1287,Summit Hospital,2023-07-25,2023-08-03,9,77,M,Sepsis,Self-Pay,Hospice,0,,DR138
+1288,Valley Health,2023-11-23,2023-11-25,2,51,M,Heart Failure,UnitedHealth,AMA,0,,DR148
+1289,Valley Health,2023-06-19,2023-07-02,13,72,M,Diabetes,Aetna,Home Health,1,4,DR125
+1290,Lakeside Medical,2023-08-26,2023-09-08,13,88,M,Sepsis,Medicare,AMA,0,,DR106
+1291,Riverside General,2023-06-01,2023-06-08,7,50,F,Hip Fracture,Blue Cross,AMA,1,24,DR150
+1292,St. Mary Medical Center,2023-04-16,2023-04-25,9,75,F,Stroke,Blue Cross,Home,0,,DR119
+1293,Valley Health,2023-01-23,2023-02-05,13,90,M,COPD,Self-Pay,SNF,1,28,DR133
+1294,Summit Hospital,2023-03-31,2023-04-09,9,55,F,Diabetes,Aetna,SNF,0,,DR111
+1295,Lakeside Medical,2023-11-24,2023-12-05,11,72,M,Stroke,UnitedHealth,AMA,0,,DR124
+1296,St. Mary Medical Center,2023-01-03,2023-01-15,12,58,M,COPD,Blue Cross,Home Health,0,,DR112
+1297,Summit Hospital,2023-08-23,2023-08-25,2,61,F,AMI,UnitedHealth,AMA,0,,DR137
+1298,Lakeside Medical,2023-02-28,2023-03-06,6,67,M,Hip Fracture,UnitedHealth,Hospice,0,,DR105
+1299,St. Mary Medical Center,2023-12-11,2023-12-14,3,65,M,Sepsis,Self-Pay,SNF,1,10,DR132
+1300,Summit Hospital,2023-07-18,2023-07-25,7,83,M,Stroke,Self-Pay,Hospice,1,13,DR144
+1301,Riverside General,2023-11-27,2023-11-30,3,80,M,Sepsis,Aetna,Hospice,1,10,DR103
+1302,Summit Hospital,2023-07-03,2023-07-04,1,76,F,AMI,Self-Pay,AMA,1,27,DR126
+1303,St. Mary Medical Center,2023-12-30,2024-01-13,14,73,M,Diabetes,Blue Cross,Home,0,,DR117
+1304,Lakeside Medical,2023-04-26,2023-05-05,9,63,F,Pneumonia,UnitedHealth,Home,1,15,DR117
+1305,St. Mary Medical Center,2023-10-06,2023-10-20,14,68,F,Diabetes,Aetna,Home,0,,DR147
+1306,St. Mary Medical Center,2023-12-01,2023-12-14,13,60,F,Hip Fracture,Blue Cross,Home,0,,DR128
+1307,Lakeside Medical,2023-03-02,2023-03-15,13,60,F,AMI,Medicaid,Hospice,0,,DR108
+1308,Lakeside Medical,2023-04-16,2023-04-30,14,58,F,Hip Fracture,UnitedHealth,Hospice,0,,DR110
+1309,Valley Health,2023-06-15,2023-06-27,12,63,M,COPD,Aetna,Home,0,,DR117
+1310,Riverside General,2023-12-02,2023-12-05,3,89,M,Sepsis,Medicaid,AMA,0,,DR131
+1311,Summit Hospital,2023-03-14,2023-03-24,10,85,F,Pneumonia,Self-Pay,Home,1,14,DR125
+1312,Valley Health,2023-09-21,2023-10-03,12,62,F,Stroke,Blue Cross,Hospice,0,,DR100
+1313,Valley Health,2023-02-17,2023-03-01,12,74,M,AMI,Medicaid,AMA,0,,DR113
+1314,Valley Health,2023-09-11,2023-09-16,5,65,M,Stroke,Blue Cross,Home,0,,DR102
+1315,Riverside General,2023-02-20,2023-03-03,11,74,F,Stroke,Medicare,AMA,1,30,DR112
+1316,Valley Health,2023-12-19,2023-12-22,3,86,M,Sepsis,Blue Cross,Home,1,28,DR123
+1317,Valley Health,2023-12-07,2023-12-18,11,55,M,AMI,Self-Pay,Home,1,21,DR145
+1318,Riverside General,2023-02-18,2023-02-19,1,58,M,Stroke,Medicare,Home,0,,DR144
+1319,Summit Hospital,2023-06-25,2023-07-09,14,52,M,Stroke,Medicare,SNF,0,,DR124
+1320,Valley Health,2023-02-15,2023-02-27,12,51,M,AMI,Medicaid,SNF,1,12,DR104
+1321,Riverside General,2023-09-29,2023-10-09,10,45,F,Sepsis,Self-Pay,SNF,0,,DR140
+1322,Riverside General,2023-03-19,2023-03-26,7,84,M,Pneumonia,Medicaid,Home,0,,DR137
+1323,Riverside General,2023-07-16,2023-07-22,6,72,M,Hip Fracture,Self-Pay,Home,0,,DR115
+1324,Valley Health,2023-10-11,2023-10-21,10,83,M,Hip Fracture,Medicaid,Hospice,0,,DR138
+1325,St. Mary Medical Center,2023-09-18,2023-09-22,4,70,M,Stroke,Aetna,Home,0,,DR115
+1326,St. Mary Medical Center,2023-09-13,2023-09-24,11,83,F,Sepsis,Medicaid,AMA,1,29,DR136
+1327,Summit Hospital,2023-08-04,2023-08-10,6,79,M,Heart Failure,UnitedHealth,Home,0,,DR100
+1328,Summit Hospital,2023-05-15,2023-05-19,4,47,F,AMI,Aetna,AMA,0,,DR105
+1329,Valley Health,2023-11-24,2023-12-03,9,79,M,Hip Fracture,Medicare,Hospice,0,,DR113
+1330,St. Mary Medical Center,2023-03-21,2023-03-30,9,65,F,AMI,Self-Pay,SNF,0,,DR103
+1331,Lakeside Medical,2023-05-06,2023-05-08,2,72,M,Hip Fracture,Self-Pay,SNF,1,20,DR107
+1332,Riverside General,2023-01-07,2023-01-19,12,53,F,Sepsis,UnitedHealth,Hospice,0,,DR150
+1333,Valley Health,2023-05-13,2023-05-16,3,68,M,Heart Failure,Blue Cross,AMA,1,25,DR117
+1334,Lakeside Medical,2023-09-26,2023-09-28,2,61,M,Stroke,Aetna,Hospice,0,,DR123
+1335,Valley Health,2023-01-29,2023-02-06,8,81,M,Pneumonia,Medicaid,Hospice,1,6,DR100
+1336,Summit Hospital,2023-01-23,2023-02-06,14,45,F,AMI,Medicaid,SNF,0,,DR102
+1337,Summit Hospital,2023-10-11,2023-10-24,13,90,M,Sepsis,Medicaid,AMA,0,,DR146
+1338,St. Mary Medical Center,2023-06-13,2023-06-18,5,49,M,COPD,Medicaid,Hospice,0,,DR102
+1339,Valley Health,2023-07-25,2023-07-27,2,74,F,Pneumonia,UnitedHealth,AMA,0,,DR100
+1340,Valley Health,2023-07-08,2023-07-12,4,63,M,Stroke,Blue Cross,Hospice,0,,DR131
+1341,Riverside General,2023-04-11,2023-04-23,12,79,M,Heart Failure,Aetna,Home,0,,DR114
+1342,St. Mary Medical Center,2023-10-05,2023-10-11,6,85,F,Heart Failure,Self-Pay,AMA,0,,DR147
+1343,Riverside General,2023-06-07,2023-06-09,2,58,F,Stroke,Medicare,SNF,0,,DR145
+1344,Lakeside Medical,2023-05-24,2023-05-26,2,47,F,Sepsis,Aetna,Home,0,,DR137
+1345,Summit Hospital,2023-02-18,2023-02-27,9,53,M,Heart Failure,Aetna,SNF,0,,DR115
+1346,Summit Hospital,2023-05-30,2023-06-04,5,65,F,Sepsis,Aetna,Home Health,0,,DR114
+1347,Lakeside Medical,2023-02-08,2023-02-12,4,53,M,COPD,Medicare,SNF,0,,DR128
+1348,Riverside General,2023-08-27,2023-09-02,6,71,F,Hip Fracture,Aetna,Home Health,1,12,DR107
+1349,Lakeside Medical,2023-02-16,2023-02-19,3,88,M,Diabetes,Blue Cross,SNF,1,23,DR105
+1350,St. Mary Medical Center,2023-12-31,2024-01-04,4,67,F,Hip Fracture,Medicaid,Home,0,,DR125
+1351,St. Mary Medical Center,2023-08-20,2023-08-29,9,80,M,Pneumonia,Medicare,Home,1,15,DR149
+1352,Valley Health,2023-04-24,2023-04-27,3,57,M,Hip Fracture,Medicare,Home,0,,DR104
+1353,St. Mary Medical Center,2023-04-12,2023-04-23,11,73,F,Pneumonia,Medicare,AMA,0,,DR103
+1354,Summit Hospital,2023-03-28,2023-04-07,10,72,F,Heart Failure,Aetna,AMA,0,,DR111
+1355,Summit Hospital,2023-07-01,2023-07-05,4,56,M,Heart Failure,UnitedHealth,Hospice,0,,DR139
+1356,Lakeside Medical,2023-05-06,2023-05-17,11,63,F,Heart Failure,Medicare,Home Health,0,,DR124
+1357,Lakeside Medical,2023-03-12,2023-03-19,7,57,M,Heart Failure,Aetna,Home Health,0,,DR130
+1358,Lakeside Medical,2023-10-06,2023-10-19,13,76,F,AMI,Blue Cross,SNF,0,,DR101
+1359,Valley Health,2023-06-13,2023-06-23,10,59,M,Stroke,UnitedHealth,Home Health,1,26,DR149
+1360,Riverside General,2023-10-27,2023-10-31,4,55,F,Heart Failure,Medicaid,Hospice,1,22,DR124
+1361,Valley Health,2023-07-01,2023-07-15,14,56,F,Heart Failure,Self-Pay,Home Health,1,19,DR136
+1362,Summit Hospital,2023-10-16,2023-10-19,3,81,F,COPD,Aetna,Home,0,,DR105
+1363,Summit Hospital,2023-01-29,2023-02-02,4,83,M,Sepsis,UnitedHealth,SNF,1,17,DR108
+1364,Valley Health,2023-06-24,2023-07-06,12,56,M,Heart Failure,Medicaid,Hospice,0,,DR145
+1365,Valley Health,2023-03-14,2023-03-27,13,52,M,Sepsis,Self-Pay,AMA,0,,DR137
+1366,Riverside General,2023-02-21,2023-02-27,6,64,F,Stroke,Self-Pay,Home Health,0,,DR111
+1367,Lakeside Medical,2023-12-29,2024-01-07,9,89,F,Diabetes,Self-Pay,Hospice,0,,DR111
+1368,St. Mary Medical Center,2023-07-13,2023-07-18,5,89,F,Heart Failure,Medicaid,Hospice,1,6,DR120
+1369,Summit Hospital,2023-11-10,2023-11-14,4,85,M,Sepsis,Self-Pay,Home,0,,DR115
+1370,St. Mary Medical Center,2023-06-27,2023-07-03,6,55,F,Stroke,Medicare,Home Health,0,,DR113
+1371,St. Mary Medical Center,2023-05-08,2023-05-20,12,49,M,Heart Failure,Aetna,AMA,0,,DR146
+1372,Summit Hospital,2023-08-03,2023-08-06,3,71,F,AMI,Medicare,AMA,0,,DR150
+1373,St. Mary Medical Center,2023-10-23,2023-11-03,11,88,M,Hip Fracture,Medicare,Home Health,1,15,DR116
+1374,Summit Hospital,2023-02-23,2023-02-25,2,66,M,Pneumonia,UnitedHealth,Home,0,,DR121
+1375,Summit Hospital,2023-11-01,2023-11-11,10,75,M,AMI,Medicaid,Home,0,,DR106
+1376,Lakeside Medical,2023-06-19,2023-06-23,4,57,F,Hip Fracture,Blue Cross,SNF,0,,DR106
+1377,Summit Hospital,2023-01-26,2023-02-02,7,81,M,Heart Failure,Blue Cross,Home,0,,DR127
+1378,Summit Hospital,2023-02-14,2023-02-19,5,87,M,Pneumonia,Medicare,SNF,0,,DR110
+1379,St. Mary Medical Center,2023-11-23,2023-11-28,5,50,F,AMI,Aetna,AMA,0,,DR142
+1380,Riverside General,2023-05-16,2023-05-18,2,86,F,AMI,Blue Cross,SNF,0,,DR128
+1381,Riverside General,2023-01-23,2023-01-28,5,73,F,Heart Failure,Medicaid,Home,0,,DR105
+1382,Lakeside Medical,2023-12-09,2023-12-15,6,79,M,Heart Failure,Aetna,Hospice,0,,DR126
+1383,Riverside General,2023-10-02,2023-10-13,11,75,F,Hip Fracture,Medicare,AMA,0,,DR145
+1384,Lakeside Medical,2023-01-18,2023-01-27,9,81,M,Pneumonia,Aetna,SNF,0,,DR110
+1385,St. Mary Medical Center,2023-04-19,2023-05-02,13,57,F,Diabetes,Self-Pay,SNF,1,14,DR138
+1386,Summit Hospital,2023-05-13,2023-05-19,6,49,F,Hip Fracture,UnitedHealth,AMA,1,18,DR100
+1387,Summit Hospital,2023-12-25,2024-01-04,10,82,M,AMI,Medicaid,SNF,0,,DR136
+1388,Lakeside Medical,2023-10-29,2023-11-08,10,51,M,Hip Fracture,UnitedHealth,Home Health,0,,DR126
+1389,Lakeside Medical,2023-05-16,2023-05-23,7,86,F,Heart Failure,Medicaid,Home Health,0,,DR125
+1390,Summit Hospital,2023-03-15,2023-03-25,10,83,M,AMI,Blue Cross,SNF,0,,DR103
+1391,Valley Health,2023-09-01,2023-09-06,5,68,F,Hip Fracture,Aetna,Home,1,27,DR114
+1392,Valley Health,2023-03-10,2023-03-15,5,73,F,AMI,UnitedHealth,Home,0,,DR112
+1393,Lakeside Medical,2023-08-15,2023-08-19,4,71,F,Heart Failure,UnitedHealth,SNF,0,,DR104
+1394,Lakeside Medical,2023-06-09,2023-06-21,12,77,M,COPD,Medicaid,SNF,0,,DR103
+1395,Riverside General,2023-05-08,2023-05-09,1,74,F,Sepsis,Aetna,Hospice,1,12,DR125
+1396,Summit Hospital,2023-11-22,2023-11-24,2,88,F,COPD,Aetna,Hospice,1,12,DR135
+1397,Valley Health,2023-06-29,2023-07-05,6,55,M,Hip Fracture,Medicare,AMA,0,,DR103
+1398,Riverside General,2023-03-25,2023-04-08,14,81,M,Diabetes,Self-Pay,SNF,0,,DR117
+1399,St. Mary Medical Center,2023-11-30,2023-12-07,7,77,F,COPD,Self-Pay,SNF,1,25,DR138
+1400,Valley Health,2023-01-05,2023-01-09,4,61,F,AMI,Aetna,Home Health,0,,DR129
+1401,Lakeside Medical,2023-05-10,2023-05-14,4,74,F,Pneumonia,Medicare,Hospice,0,,DR142
+1402,Valley Health,2023-07-11,2023-07-20,9,86,F,Pneumonia,Aetna,Home,0,,DR121
+1403,Valley Health,2023-05-22,2023-06-02,11,65,F,Diabetes,Medicaid,Hospice,0,,DR148
+1404,Valley Health,2023-05-04,2023-05-05,1,83,M,Heart Failure,Self-Pay,AMA,0,,DR118
+1405,St. Mary Medical Center,2023-05-13,2023-05-20,7,70,M,Sepsis,Self-Pay,SNF,0,,DR143
+1406,Valley Health,2023-10-01,2023-10-12,11,75,F,COPD,Self-Pay,Hospice,0,,DR111
+1407,Lakeside Medical,2023-05-31,2023-06-02,2,75,M,Sepsis,Self-Pay,Home,1,9,DR114
+1408,Valley Health,2023-07-01,2023-07-05,4,64,F,Hip Fracture,UnitedHealth,Home Health,0,,DR129
+1409,Lakeside Medical,2023-03-02,2023-03-10,8,48,M,Stroke,Medicaid,Hospice,0,,DR107
+1410,St. Mary Medical Center,2023-12-15,2023-12-22,7,78,M,COPD,Medicaid,Home Health,0,,DR126
+1411,Riverside General,2023-10-19,2023-10-27,8,54,M,Stroke,Blue Cross,SNF,0,,DR120
+1412,Riverside General,2023-11-21,2023-11-22,1,45,M,COPD,Aetna,Home,0,,DR108
+1413,Summit Hospital,2023-11-11,2023-11-18,7,85,F,AMI,Medicare,Home,0,,DR134
+1414,Valley Health,2023-04-13,2023-04-25,12,68,M,Heart Failure,Self-Pay,Home,0,,DR140
+1415,Valley Health,2023-05-08,2023-05-12,4,89,M,Pneumonia,Aetna,Hospice,0,,DR137
+1416,Valley Health,2023-06-06,2023-06-09,3,49,F,Stroke,Self-Pay,Hospice,0,,DR138
+1417,Riverside General,2023-09-26,2023-10-02,6,72,F,Stroke,Blue Cross,SNF,0,,DR110
+1418,Riverside General,2023-07-26,2023-07-27,1,59,M,Heart Failure,UnitedHealth,Hospice,0,,DR110
+1419,St. Mary Medical Center,2023-03-05,2023-03-11,6,90,F,Hip Fracture,UnitedHealth,Hospice,0,,DR103
+1420,St. Mary Medical Center,2023-11-01,2023-11-02,1,87,M,Pneumonia,Aetna,AMA,1,27,DR124
+1421,Riverside General,2023-03-05,2023-03-14,9,61,M,Heart Failure,Blue Cross,AMA,0,,DR142
+1422,Riverside General,2023-02-21,2023-03-04,11,78,F,Pneumonia,UnitedHealth,Hospice,1,20,DR107
+1423,Lakeside Medical,2023-05-25,2023-05-27,2,51,M,Hip Fracture,UnitedHealth,SNF,0,,DR122
+1424,Lakeside Medical,2023-12-27,2024-01-03,7,63,F,Diabetes,Self-Pay,AMA,0,,DR121
+1425,St. Mary Medical Center,2023-05-01,2023-05-02,1,45,F,COPD,Medicare,Hospice,0,,DR104
+1426,Valley Health,2023-02-21,2023-02-26,5,86,F,Heart Failure,Medicare,SNF,1,10,DR102
+1427,St. Mary Medical Center,2023-05-29,2023-06-04,6,88,M,Heart Failure,Medicare,SNF,1,24,DR142
+1428,Summit Hospital,2023-11-28,2023-12-01,3,66,F,Pneumonia,Blue Cross,Home Health,0,,DR111
+1429,Valley Health,2023-02-28,2023-03-07,7,70,F,Stroke,Aetna,SNF,0,,DR107
+1430,Riverside General,2023-03-09,2023-03-21,12,48,M,AMI,UnitedHealth,AMA,0,,DR136
+1431,Valley Health,2023-12-14,2023-12-22,8,56,M,COPD,Aetna,AMA,0,,DR107
+1432,Valley Health,2023-07-30,2023-08-07,8,47,M,Diabetes,Self-Pay,Home Health,1,21,DR133
+1433,Summit Hospital,2023-09-25,2023-10-07,12,89,M,Stroke,Blue Cross,AMA,0,,DR109
+1434,Riverside General,2023-10-13,2023-10-23,10,48,F,Stroke,Medicaid,Home,1,30,DR148
+1435,Valley Health,2023-09-09,2023-09-15,6,60,M,Diabetes,UnitedHealth,AMA,0,,DR125
+1436,Lakeside Medical,2023-05-01,2023-05-03,2,74,F,Pneumonia,Aetna,AMA,0,,DR120
+1437,Summit Hospital,2023-03-02,2023-03-10,8,86,M,Heart Failure,Medicare,Hospice,1,13,DR139
+1438,Summit Hospital,2023-11-23,2023-11-28,5,77,F,Sepsis,Medicare,SNF,0,,DR129
+1439,Valley Health,2023-06-19,2023-06-28,9,84,F,Pneumonia,Medicare,SNF,0,,DR100
+1440,Valley Health,2023-06-24,2023-06-30,6,85,F,Pneumonia,Medicare,SNF,0,,DR131
+1441,Summit Hospital,2023-03-13,2023-03-27,14,90,M,Hip Fracture,UnitedHealth,SNF,0,,DR112
+1442,Riverside General,2023-03-03,2023-03-17,14,70,F,Pneumonia,Aetna,Home,1,27,DR140
+1443,Summit Hospital,2023-12-11,2023-12-21,10,52,F,COPD,Aetna,Home,0,,DR133
+1444,Summit Hospital,2023-01-25,2023-02-03,9,72,M,COPD,Self-Pay,SNF,0,,DR106
+1445,Valley Health,2023-07-18,2023-07-29,11,83,F,AMI,UnitedHealth,SNF,0,,DR117
+1446,Riverside General,2023-07-23,2023-07-29,6,63,M,AMI,UnitedHealth,Hospice,0,,DR119
+1447,Lakeside Medical,2023-12-26,2024-01-04,9,65,M,Diabetes,Medicaid,Hospice,0,,DR145
+1448,Riverside General,2023-05-29,2023-06-09,11,67,M,Sepsis,Self-Pay,Home,0,,DR148
+1449,Summit Hospital,2023-06-30,2023-07-09,9,75,F,AMI,Medicare,Hospice,0,,DR106
+1450,Riverside General,2023-01-13,2023-01-20,7,54,F,COPD,Blue Cross,Home Health,1,2,DR109
+1451,Lakeside Medical,2023-02-01,2023-02-13,12,63,M,Sepsis,Aetna,Home,0,,DR139
+1452,Lakeside Medical,2023-12-12,2023-12-24,12,80,F,Diabetes,UnitedHealth,Home Health,0,,DR144
+1453,Valley Health,2023-12-07,2023-12-08,1,69,M,Heart Failure,Self-Pay,Home Health,0,,DR112
+1454,Valley Health,2023-11-14,2023-11-28,14,73,M,Diabetes,Blue Cross,AMA,0,,DR111
+1455,Lakeside Medical,2023-12-16,2023-12-18,2,56,M,AMI,Medicare,AMA,0,,DR117
+1456,Valley Health,2023-10-12,2023-10-17,5,53,M,Sepsis,Aetna,SNF,0,,DR102
+1457,Lakeside Medical,2023-03-20,2023-03-26,6,83,F,Stroke,UnitedHealth,Hospice,1,30,DR122
+1458,Riverside General,2023-02-07,2023-02-20,13,90,M,COPD,Aetna,Hospice,1,8,DR134
+1459,Riverside General,2023-07-26,2023-07-28,2,67,F,Sepsis,Blue Cross,Home Health,0,,DR113
+1460,St. Mary Medical Center,2023-11-13,2023-11-22,9,75,M,Sepsis,Aetna,SNF,0,,DR141
+1461,Valley Health,2023-11-11,2023-11-21,10,60,F,Pneumonia,Aetna,Home Health,0,,DR134
+1462,Valley Health,2023-05-25,2023-05-26,1,78,F,Stroke,Medicare,Home Health,0,,DR141
+1463,Riverside General,2023-04-09,2023-04-15,6,77,M,Pneumonia,Medicaid,SNF,1,4,DR143
+1464,Summit Hospital,2023-08-06,2023-08-20,14,51,M,COPD,Medicare,AMA,0,,DR145
+1465,Valley Health,2023-06-19,2023-06-20,1,50,M,Diabetes,Blue Cross,AMA,1,6,DR124
+1466,St. Mary Medical Center,2023-08-19,2023-08-30,11,70,F,Pneumonia,UnitedHealth,Home,0,,DR141
+1467,St. Mary Medical Center,2023-11-13,2023-11-15,2,82,F,Pneumonia,Blue Cross,Home Health,1,28,DR138
+1468,St. Mary Medical Center,2023-02-14,2023-02-19,5,73,F,COPD,UnitedHealth,SNF,0,,DR108
+1469,Riverside General,2023-07-20,2023-08-02,13,79,F,Sepsis,Medicare,Hospice,1,21,DR135
+1470,Summit Hospital,2023-03-14,2023-03-16,2,47,M,Hip Fracture,Medicaid,Home Health,1,20,DR113
+1471,Riverside General,2023-07-31,2023-08-11,11,77,F,Diabetes,Medicare,SNF,1,6,DR142
+1472,Lakeside Medical,2023-10-18,2023-11-01,14,48,F,Pneumonia,Blue Cross,Home,0,,DR116
+1473,Valley Health,2023-02-20,2023-02-24,4,82,F,COPD,Self-Pay,SNF,0,,DR106
+1474,Valley Health,2023-05-26,2023-06-05,10,49,F,Stroke,Blue Cross,Hospice,0,,DR142
+1475,Valley Health,2023-06-06,2023-06-18,12,82,F,AMI,Medicaid,Home,1,19,DR120
+1476,Summit Hospital,2023-05-07,2023-05-20,13,59,F,Sepsis,Medicaid,Home Health,0,,DR130
+1477,Summit Hospital,2023-08-25,2023-09-02,8,67,M,COPD,Self-Pay,Hospice,0,,DR105
+1478,Riverside General,2023-05-24,2023-06-07,14,53,F,Pneumonia,Self-Pay,Home,0,,DR101
+1479,Lakeside Medical,2023-09-17,2023-09-28,11,46,F,Diabetes,Medicare,Hospice,0,,DR116
+1480,Riverside General,2023-10-06,2023-10-15,9,75,F,AMI,Medicaid,Hospice,0,,DR146
+1481,St. Mary Medical Center,2023-05-29,2023-06-01,3,74,F,Sepsis,UnitedHealth,Home,0,,DR142
+1482,Lakeside Medical,2023-05-03,2023-05-17,14,84,M,Stroke,Medicaid,SNF,0,,DR136
+1483,Summit Hospital,2023-10-17,2023-10-28,11,54,F,Heart Failure,Medicaid,AMA,0,,DR114
+1484,Riverside General,2023-02-02,2023-02-07,5,68,F,AMI,Aetna,AMA,0,,DR102
+1485,Valley Health,2023-01-21,2023-02-01,11,65,F,COPD,Aetna,AMA,1,17,DR123
+1486,Summit Hospital,2023-10-28,2023-11-08,11,49,M,AMI,Blue Cross,Home Health,0,,DR131
+1487,Riverside General,2023-09-04,2023-09-14,10,45,F,COPD,Medicaid,Home,0,,DR132
+1488,Riverside General,2023-11-26,2023-12-01,5,58,F,Pneumonia,Self-Pay,SNF,0,,DR126
+1489,Summit Hospital,2023-06-19,2023-07-01,12,52,F,Diabetes,UnitedHealth,SNF,0,,DR141
+1490,Lakeside Medical,2023-07-30,2023-07-31,1,60,M,COPD,Self-Pay,Hospice,1,19,DR102
+1491,Riverside General,2023-10-21,2023-10-24,3,48,F,Heart Failure,Self-Pay,Home Health,0,,DR105
+1492,Summit Hospital,2023-04-21,2023-04-29,8,83,M,Diabetes,Aetna,Hospice,0,,DR109
+1493,Lakeside Medical,2023-10-26,2023-11-09,14,56,F,COPD,Self-Pay,Home Health,0,,DR129
+1494,Summit Hospital,2023-11-02,2023-11-12,10,49,M,Pneumonia,Medicare,SNF,0,,DR133
+1495,Lakeside Medical,2023-09-16,2023-09-27,11,71,M,COPD,Aetna,Hospice,0,,DR138
+1496,St. Mary Medical Center,2023-01-20,2023-02-02,13,79,M,Stroke,Self-Pay,SNF,0,,DR138
+1497,Summit Hospital,2023-10-04,2023-10-18,14,45,F,Sepsis,Medicare,Hospice,0,,DR127
+1498,Summit Hospital,2023-04-28,2023-05-11,13,75,F,Pneumonia,Aetna,SNF,0,,DR116
+1499,St. Mary Medical Center,2023-09-02,2023-09-15,13,59,F,AMI,Blue Cross,SNF,0,,DR100
+1500,St. Mary Medical Center,2023-12-30,2024-01-11,12,45,M,AMI,Self-Pay,SNF,0,,DR144
+1501,Lakeside Medical,2023-06-11,2023-06-18,7,68,F,Hip Fracture,UnitedHealth,AMA,1,14,DR136
+1502,Summit Hospital,2023-07-07,2023-07-17,10,62,M,AMI,UnitedHealth,Hospice,0,,DR130
+1503,Valley Health,2023-04-02,2023-04-08,6,80,F,Sepsis,Self-Pay,AMA,0,,DR147
+1504,Summit Hospital,2023-03-12,2023-03-26,14,87,M,Pneumonia,Medicaid,Hospice,1,8,DR125
+1505,St. Mary Medical Center,2023-06-23,2023-07-06,13,80,M,AMI,Self-Pay,Home,0,,DR105
+1506,St. Mary Medical Center,2023-03-16,2023-03-24,8,83,F,Diabetes,Blue Cross,Home,0,,DR138
+1507,Summit Hospital,2023-01-20,2023-02-01,12,69,F,Heart Failure,Medicaid,AMA,0,,DR128
+1508,Lakeside Medical,2023-01-06,2023-01-10,4,87,F,Diabetes,Medicare,Hospice,0,,DR132
+1509,St. Mary Medical Center,2023-09-22,2023-10-04,12,59,F,Diabetes,Self-Pay,Home,0,,DR110
+1510,Summit Hospital,2023-02-14,2023-02-19,5,70,F,Diabetes,UnitedHealth,Home,0,,DR147
+1511,Lakeside Medical,2023-12-27,2023-12-29,2,50,F,Sepsis,Blue Cross,SNF,0,,DR138
+1512,Valley Health,2023-04-10,2023-04-18,8,70,M,AMI,UnitedHealth,Home,0,,DR135
+1513,St. Mary Medical Center,2023-02-07,2023-02-16,9,63,F,Hip Fracture,Self-Pay,AMA,0,,DR124
+1514,Summit Hospital,2023-10-16,2023-10-24,8,60,F,Heart Failure,Aetna,Home,0,,DR116
+1515,Riverside General,2023-02-04,2023-02-11,7,85,M,Sepsis,Aetna,Home Health,0,,DR133
+1516,Riverside General,2023-10-02,2023-10-03,1,89,F,Pneumonia,Aetna,Home Health,0,,DR104
+1517,Riverside General,2023-10-11,2023-10-14,3,75,F,COPD,Self-Pay,SNF,0,,DR131
+1518,Riverside General,2023-04-13,2023-04-17,4,60,M,Diabetes,Medicaid,Hospice,0,,DR122
+1519,Summit Hospital,2023-03-21,2023-04-03,13,51,M,Heart Failure,Aetna,Home Health,1,3,DR139
+1520,Summit Hospital,2023-06-11,2023-06-19,8,81,M,Hip Fracture,Aetna,SNF,0,,DR148
+1521,Summit Hospital,2023-10-23,2023-10-26,3,48,F,Heart Failure,UnitedHealth,Home Health,0,,DR125
+1522,St. Mary Medical Center,2023-12-18,2023-12-31,13,56,F,Sepsis,Self-Pay,Home,0,,DR100
+1523,Valley Health,2023-12-12,2023-12-16,4,69,F,Hip Fracture,Medicaid,Hospice,0,,DR116
+1524,Valley Health,2023-05-02,2023-05-07,5,75,F,COPD,Aetna,AMA,0,,DR113
+1525,Summit Hospital,2023-08-03,2023-08-15,12,68,F,Stroke,Medicaid,Hospice,0,,DR108
+1526,Valley Health,2023-10-22,2023-11-02,11,59,M,AMI,Aetna,SNF,0,,DR109
+1527,Riverside General,2023-03-18,2023-03-26,8,45,F,Stroke,Blue Cross,Home Health,1,16,DR135
+1528,St. Mary Medical Center,2023-10-18,2023-10-19,1,70,M,Hip Fracture,Aetna,Home,1,6,DR128
+1529,Lakeside Medical,2023-06-21,2023-06-26,5,68,F,Sepsis,Medicare,AMA,0,,DR107
+1530,Riverside General,2023-06-29,2023-07-13,14,88,M,Hip Fracture,Blue Cross,Home Health,0,,DR143
+1531,Summit Hospital,2023-09-19,2023-09-27,8,73,F,Stroke,Self-Pay,SNF,0,,DR110
+1532,Lakeside Medical,2023-11-24,2023-12-07,13,66,F,Pneumonia,Medicare,SNF,0,,DR121
+1533,Valley Health,2023-04-27,2023-05-03,6,65,F,Hip Fracture,Aetna,Home Health,0,,DR147
+1534,Riverside General,2023-10-28,2023-11-06,9,73,M,COPD,Self-Pay,SNF,0,,DR142
+1535,Riverside General,2023-05-09,2023-05-21,12,89,M,AMI,Medicare,Home,0,,DR104
+1536,Lakeside Medical,2023-08-31,2023-09-09,9,48,M,Pneumonia,Blue Cross,Hospice,1,13,DR109
+1537,Riverside General,2023-02-13,2023-02-24,11,69,F,Stroke,Self-Pay,SNF,0,,DR108
+1538,Valley Health,2023-09-27,2023-10-11,14,55,F,Stroke,Aetna,Hospice,1,22,DR117
+1539,Lakeside Medical,2023-10-08,2023-10-16,8,53,M,Stroke,Self-Pay,Hospice,0,,DR127
+1540,Valley Health,2023-09-26,2023-10-07,11,85,F,Diabetes,Medicare,AMA,0,,DR119
+1541,St. Mary Medical Center,2023-07-07,2023-07-14,7,61,M,COPD,Blue Cross,Home Health,0,,DR130
+1542,Summit Hospital,2023-10-01,2023-10-02,1,89,F,Heart Failure,Aetna,Home Health,0,,DR138
+1543,Riverside General,2023-04-29,2023-05-12,13,45,F,AMI,Aetna,SNF,0,,DR110
+1544,St. Mary Medical Center,2023-11-27,2023-12-04,7,69,F,Diabetes,UnitedHealth,Hospice,0,,DR144
+1545,Lakeside Medical,2023-12-17,2023-12-22,5,63,F,AMI,Medicaid,Home,0,,DR111
+1546,Lakeside Medical,2023-03-11,2023-03-16,5,52,F,Hip Fracture,Self-Pay,Hospice,0,,DR131
+1547,Lakeside Medical,2023-04-07,2023-04-13,6,46,M,COPD,Medicare,Home Health,0,,DR117
+1548,Riverside General,2023-03-06,2023-03-18,12,73,M,COPD,Medicare,AMA,0,,DR113
+1549,Summit Hospital,2023-06-25,2023-07-02,7,64,F,Stroke,Self-Pay,Home,0,,DR121
+1550,Summit Hospital,2023-02-11,2023-02-25,14,54,M,Stroke,Medicaid,SNF,1,25,DR116
+1551,Riverside General,2023-07-15,2023-07-29,14,45,F,Stroke,Medicaid,Home,1,25,DR112
+1552,Riverside General,2023-08-24,2023-09-05,12,51,F,AMI,Self-Pay,Home Health,0,,DR120
+1553,Lakeside Medical,2023-03-23,2023-04-03,11,47,M,Hip Fracture,Aetna,Home Health,0,,DR112
+1554,Riverside General,2023-07-04,2023-07-05,1,87,F,Sepsis,Medicare,SNF,1,4,DR150
+1555,Riverside General,2023-05-22,2023-06-01,10,52,M,Heart Failure,UnitedHealth,AMA,0,,DR144
+1556,Riverside General,2023-11-02,2023-11-05,3,68,M,Stroke,Medicare,Hospice,0,,DR121
+1557,Riverside General,2023-11-17,2023-11-18,1,48,M,COPD,Aetna,SNF,0,,DR120
+1558,Summit Hospital,2023-10-13,2023-10-26,13,86,M,Heart Failure,Self-Pay,AMA,0,,DR122
+1559,Summit Hospital,2023-03-10,2023-03-15,5,47,F,Stroke,Medicaid,Hospice,0,,DR111
+1560,Valley Health,2023-10-06,2023-10-12,6,65,M,Pneumonia,UnitedHealth,SNF,0,,DR128
+1561,Summit Hospital,2023-06-01,2023-06-15,14,61,M,AMI,Self-Pay,SNF,0,,DR101
+1562,Riverside General,2023-11-14,2023-11-28,14,68,F,Pneumonia,Self-Pay,Hospice,0,,DR124
+1563,Lakeside Medical,2023-04-08,2023-04-17,9,88,M,Hip Fracture,Blue Cross,AMA,0,,DR141
+1564,St. Mary Medical Center,2023-06-14,2023-06-16,2,51,M,COPD,Medicaid,Home,0,,DR112
+1565,Summit Hospital,2023-02-24,2023-03-04,8,57,F,Hip Fracture,Medicare,Home Health,1,19,DR114
+1566,Riverside General,2023-11-07,2023-11-19,12,49,F,Pneumonia,Aetna,Home,1,30,DR123
+1567,St. Mary Medical Center,2023-10-13,2023-10-25,12,71,F,Heart Failure,Self-Pay,Home,0,,DR119
+1568,Riverside General,2023-02-09,2023-02-13,4,78,F,Diabetes,Medicaid,Hospice,1,24,DR142
+1569,Lakeside Medical,2023-05-08,2023-05-18,10,85,F,Pneumonia,Self-Pay,Hospice,0,,DR122
+1570,St. Mary Medical Center,2023-12-12,2023-12-20,8,89,M,COPD,UnitedHealth,AMA,0,,DR132
+1571,Lakeside Medical,2023-06-22,2023-07-03,11,55,F,Sepsis,Blue Cross,Hospice,0,,DR120
+1572,Valley Health,2023-07-10,2023-07-17,7,85,M,Diabetes,Aetna,Hospice,0,,DR147
+1573,Summit Hospital,2023-05-11,2023-05-17,6,73,M,Heart Failure,Blue Cross,Hospice,0,,DR101
+1574,Riverside General,2023-09-23,2023-09-26,3,64,F,Heart Failure,Self-Pay,Home Health,1,8,DR135
+1575,Riverside General,2023-09-19,2023-09-28,9,81,M,Heart Failure,Aetna,Home Health,0,,DR109
+1576,Riverside General,2023-03-12,2023-03-17,5,68,M,Hip Fracture,Blue Cross,Home,0,,DR136
+1577,Valley Health,2023-07-24,2023-08-03,10,58,F,COPD,Aetna,Hospice,0,,DR106
+1578,Lakeside Medical,2023-11-01,2023-11-12,11,64,F,Pneumonia,Medicare,Home Health,1,26,DR122
+1579,Riverside General,2023-08-11,2023-08-18,7,52,M,AMI,Medicare,Home Health,0,,DR133
+1580,Valley Health,2023-01-22,2023-01-28,6,79,M,COPD,Medicare,AMA,0,,DR128
+1581,Valley Health,2023-11-01,2023-11-11,10,77,F,COPD,Medicaid,Home Health,1,14,DR105
+1582,Valley Health,2023-09-01,2023-09-11,10,48,M,AMI,UnitedHealth,AMA,0,,DR149
+1583,Riverside General,2023-12-24,2023-12-27,3,53,F,AMI,Self-Pay,Hospice,0,,DR112
+1584,Valley Health,2023-10-15,2023-10-25,10,78,F,Sepsis,Self-Pay,Hospice,1,3,DR105
+1585,Valley Health,2023-02-27,2023-03-10,11,71,M,Sepsis,Blue Cross,Hospice,0,,DR141
+1586,Lakeside Medical,2023-01-13,2023-01-26,13,64,F,COPD,Aetna,Home,1,12,DR114
+1587,St. Mary Medical Center,2023-04-13,2023-04-24,11,68,M,Heart Failure,Medicaid,Hospice,1,24,DR109
+1588,St. Mary Medical Center,2023-05-28,2023-05-29,1,66,F,Stroke,Aetna,Home,0,,DR121
+1589,Lakeside Medical,2023-04-18,2023-04-30,12,79,F,Stroke,UnitedHealth,SNF,1,18,DR144
+1590,Lakeside Medical,2023-12-24,2024-01-04,11,46,M,Hip Fracture,Medicaid,Home,0,,DR118
+1591,St. Mary Medical Center,2023-04-13,2023-04-26,13,89,F,Heart Failure,Medicare,AMA,0,,DR142
+1592,St. Mary Medical Center,2023-05-19,2023-05-30,11,87,F,AMI,Medicaid,AMA,1,4,DR132
+1593,Lakeside Medical,2023-12-30,2024-01-01,2,65,M,COPD,Medicaid,Hospice,0,,DR129
+1594,Lakeside Medical,2023-10-15,2023-10-27,12,46,F,Sepsis,Aetna,AMA,1,30,DR147
+1595,Valley Health,2023-03-22,2023-03-23,1,67,F,Diabetes,UnitedHealth,Home Health,0,,DR103
+1596,St. Mary Medical Center,2023-11-17,2023-11-22,5,69,F,Diabetes,Medicaid,Home Health,0,,DR125
+1597,Lakeside Medical,2023-12-03,2023-12-06,3,50,M,AMI,Medicaid,Hospice,0,,DR109
+1598,Riverside General,2023-08-07,2023-08-12,5,83,M,COPD,UnitedHealth,Hospice,1,18,DR143
+1599,Lakeside Medical,2023-04-14,2023-04-28,14,53,M,AMI,Medicaid,Hospice,0,,DR110
+1600,St. Mary Medical Center,2023-06-12,2023-06-14,2,80,M,Sepsis,Medicaid,Home,0,,DR148
+1601,Valley Health,2023-06-13,2023-06-20,7,71,M,Diabetes,Medicare,SNF,0,,DR111
+1602,Lakeside Medical,2023-01-14,2023-01-27,13,84,M,Diabetes,Medicaid,Home,0,,DR122
+1603,Lakeside Medical,2023-02-10,2023-02-22,12,75,F,Sepsis,Medicaid,AMA,1,28,DR131
+1604,St. Mary Medical Center,2023-08-31,2023-09-03,3,55,F,Heart Failure,Blue Cross,AMA,0,,DR114
+1605,Summit Hospital,2023-12-10,2023-12-14,4,58,F,Sepsis,Aetna,SNF,1,30,DR127
+1606,Summit Hospital,2023-07-27,2023-08-09,13,47,F,AMI,UnitedHealth,Hospice,0,,DR138
+1607,St. Mary Medical Center,2023-10-02,2023-10-11,9,86,M,Stroke,Aetna,Home,0,,DR115
+1608,St. Mary Medical Center,2023-09-23,2023-10-02,9,70,F,Heart Failure,Medicaid,Home Health,0,,DR128
+1609,Summit Hospital,2023-07-23,2023-07-28,5,63,F,Heart Failure,Self-Pay,Hospice,0,,DR109
+1610,Lakeside Medical,2023-08-26,2023-09-09,14,86,M,COPD,UnitedHealth,Hospice,0,,DR108
+1611,Riverside General,2023-07-21,2023-07-28,7,65,F,Diabetes,Aetna,Home,0,,DR116
+1612,Riverside General,2023-06-15,2023-06-27,12,86,M,Pneumonia,Medicare,AMA,0,,DR140
+1613,Lakeside Medical,2023-07-05,2023-07-07,2,78,M,AMI,UnitedHealth,AMA,0,,DR102
+1614,Riverside General,2023-03-29,2023-04-04,6,81,M,COPD,Medicaid,Home,0,,DR126
+1615,Riverside General,2023-06-07,2023-06-12,5,73,M,COPD,Medicaid,Home,0,,DR139
+1616,Summit Hospital,2023-05-10,2023-05-11,1,74,M,Stroke,Medicaid,SNF,0,,DR137
+1617,St. Mary Medical Center,2023-12-04,2023-12-12,8,74,M,Diabetes,UnitedHealth,Home Health,0,,DR139
+1618,St. Mary Medical Center,2023-11-18,2023-11-27,9,58,F,Heart Failure,Medicaid,Home,1,5,DR142
+1619,St. Mary Medical Center,2023-10-23,2023-11-06,14,83,M,Pneumonia,Aetna,SNF,1,30,DR110
+1620,Lakeside Medical,2023-12-11,2023-12-16,5,84,M,Stroke,Self-Pay,Hospice,0,,DR123
+1621,Summit Hospital,2023-01-19,2023-01-21,2,64,M,AMI,UnitedHealth,Home,0,,DR118
+1622,Valley Health,2023-08-30,2023-09-02,3,52,F,AMI,UnitedHealth,SNF,0,,DR144
+1623,Lakeside Medical,2023-04-18,2023-04-28,10,48,M,Stroke,Self-Pay,Hospice,1,24,DR150
+1624,Valley Health,2023-12-28,2024-01-02,5,72,F,Sepsis,Medicaid,Hospice,0,,DR136
+1625,Riverside General,2023-09-12,2023-09-21,9,85,M,Hip Fracture,Medicaid,Home,0,,DR107
+1626,Riverside General,2023-01-13,2023-01-21,8,85,F,AMI,Medicare,Home Health,0,,DR122
+1627,Riverside General,2023-10-14,2023-10-27,13,85,F,Hip Fracture,Medicare,Home Health,1,21,DR119
+1628,St. Mary Medical Center,2023-09-17,2023-09-26,9,65,F,Sepsis,Aetna,Hospice,0,,DR139
+1629,Valley Health,2023-01-15,2023-01-29,14,56,F,Stroke,Medicare,SNF,1,27,DR130
+1630,Lakeside Medical,2023-03-21,2023-04-01,11,74,F,Stroke,Aetna,Home,0,,DR133
+1631,St. Mary Medical Center,2023-06-03,2023-06-13,10,88,M,Sepsis,Blue Cross,Home,1,18,DR109
+1632,Summit Hospital,2023-05-24,2023-06-07,14,46,M,AMI,Medicaid,Hospice,0,,DR107
+1633,Valley Health,2023-06-07,2023-06-19,12,65,F,Pneumonia,Aetna,SNF,0,,DR123
+1634,Valley Health,2023-08-20,2023-09-03,14,64,M,Pneumonia,Blue Cross,Home,0,,DR149
+1635,Summit Hospital,2023-04-14,2023-04-16,2,73,M,Diabetes,Blue Cross,AMA,0,,DR146
+1636,St. Mary Medical Center,2023-09-26,2023-10-01,5,65,M,Diabetes,Self-Pay,Home,1,28,DR129
+1637,St. Mary Medical Center,2023-07-18,2023-07-30,12,78,M,Sepsis,Aetna,Home,1,10,DR106
+1638,St. Mary Medical Center,2023-09-24,2023-10-07,13,87,F,Diabetes,Blue Cross,SNF,0,,DR112
+1639,Summit Hospital,2023-05-27,2023-06-01,5,79,M,Hip Fracture,Medicaid,SNF,0,,DR117
+1640,St. Mary Medical Center,2023-02-28,2023-03-01,1,84,M,Sepsis,UnitedHealth,Home Health,0,,DR117
+1641,Riverside General,2023-03-14,2023-03-26,12,63,M,Hip Fracture,UnitedHealth,Home Health,0,,DR134
+1642,St. Mary Medical Center,2023-08-16,2023-08-17,1,53,M,AMI,Medicare,Home,1,29,DR127
+1643,Lakeside Medical,2023-07-20,2023-07-23,3,90,F,Sepsis,Blue Cross,Home Health,0,,DR112
+1644,Summit Hospital,2023-12-10,2023-12-23,13,79,M,Pneumonia,Self-Pay,AMA,1,30,DR106
+1645,Summit Hospital,2023-08-22,2023-08-27,5,88,F,Diabetes,Medicaid,SNF,0,,DR139
+1646,Valley Health,2023-05-13,2023-05-19,6,70,F,Stroke,Aetna,Home,1,30,DR104
+1647,Riverside General,2023-09-01,2023-09-03,2,67,F,Sepsis,UnitedHealth,Hospice,0,,DR108
+1648,St. Mary Medical Center,2023-09-18,2023-09-20,2,70,F,Pneumonia,Blue Cross,Hospice,0,,DR129
+1649,Lakeside Medical,2023-07-25,2023-08-04,10,71,M,Stroke,Aetna,Home,1,8,DR121
+1650,Summit Hospital,2023-04-17,2023-05-01,14,89,F,Diabetes,Medicaid,Home,0,,DR147
+1651,Summit Hospital,2023-12-31,2024-01-10,10,76,F,Pneumonia,Aetna,SNF,1,20,DR119
+1652,Lakeside Medical,2023-07-27,2023-07-29,2,83,F,Sepsis,Aetna,Home,1,27,DR105
+1653,St. Mary Medical Center,2023-04-22,2023-05-06,14,53,M,COPD,Aetna,Hospice,0,,DR118
+1654,Riverside General,2023-07-19,2023-07-29,10,81,F,Hip Fracture,UnitedHealth,Home Health,0,,DR127
+1655,Summit Hospital,2023-06-26,2023-06-28,2,82,M,Hip Fracture,Medicare,Home Health,1,17,DR135
+1656,Valley Health,2023-01-28,2023-01-29,1,90,M,Hip Fracture,Medicare,SNF,0,,DR127
+1657,Summit Hospital,2023-12-26,2024-01-05,10,70,F,AMI,Aetna,Hospice,0,,DR113
+1658,Summit Hospital,2023-12-06,2023-12-09,3,75,F,AMI,Medicaid,Home Health,1,18,DR142
+1659,Riverside General,2023-03-06,2023-03-09,3,45,F,AMI,Medicaid,Home,1,1,DR108
+1660,Lakeside Medical,2023-11-25,2023-12-08,13,71,F,COPD,Aetna,Hospice,0,,DR127
+1661,Riverside General,2023-10-10,2023-10-24,14,73,M,AMI,UnitedHealth,Home,0,,DR136
+1662,Valley Health,2023-09-13,2023-09-27,14,60,F,Sepsis,Medicare,Home,0,,DR136
+1663,St. Mary Medical Center,2023-09-05,2023-09-17,12,68,M,Hip Fracture,Aetna,Hospice,1,16,DR105
+1664,St. Mary Medical Center,2023-09-25,2023-10-05,10,50,F,Heart Failure,Blue Cross,Hospice,0,,DR149
+1665,Summit Hospital,2023-01-06,2023-01-14,8,74,F,AMI,Blue Cross,Home Health,0,,DR118
+1666,Valley Health,2023-03-27,2023-03-28,1,89,F,Heart Failure,Self-Pay,AMA,0,,DR137
+1667,Valley Health,2023-03-28,2023-04-07,10,48,M,Hip Fracture,Aetna,Home,0,,DR108
+1668,Lakeside Medical,2023-09-16,2023-09-18,2,62,F,Hip Fracture,Blue Cross,Home,0,,DR147
+1669,Riverside General,2023-02-27,2023-03-09,10,56,F,Sepsis,Medicaid,Home Health,0,,DR150
+1670,St. Mary Medical Center,2023-12-25,2023-12-29,4,76,F,Pneumonia,Medicaid,Hospice,1,17,DR109
+1671,Riverside General,2023-09-11,2023-09-24,13,71,F,COPD,Medicaid,Hospice,0,,DR146
+1672,St. Mary Medical Center,2023-06-26,2023-06-27,1,86,M,COPD,Aetna,AMA,1,27,DR130
+1673,Summit Hospital,2023-06-04,2023-06-12,8,79,F,Hip Fracture,Medicaid,Hospice,1,22,DR127
+1674,Valley Health,2023-01-07,2023-01-12,5,73,M,Pneumonia,UnitedHealth,Home Health,0,,DR127
+1675,Valley Health,2023-11-09,2023-11-20,11,62,M,Hip Fracture,Self-Pay,Hospice,0,,DR125
+1676,Lakeside Medical,2023-08-25,2023-09-07,13,88,M,Sepsis,Self-Pay,SNF,0,,DR120
+1677,St. Mary Medical Center,2023-10-08,2023-10-09,1,88,F,Pneumonia,UnitedHealth,Home,1,3,DR143
+1678,Valley Health,2023-08-17,2023-08-23,6,59,M,Heart Failure,Medicare,Hospice,0,,DR105
+1679,Riverside General,2023-01-30,2023-02-09,10,87,M,Pneumonia,Medicare,Hospice,0,,DR108
+1680,Riverside General,2023-07-12,2023-07-23,11,86,M,COPD,Blue Cross,Home Health,0,,DR129
+1681,Valley Health,2023-12-05,2023-12-07,2,85,F,Sepsis,Blue Cross,SNF,0,,DR149
+1682,Valley Health,2023-02-07,2023-02-12,5,48,M,Hip Fracture,Blue Cross,SNF,0,,DR128
+1683,Riverside General,2023-02-05,2023-02-13,8,57,F,Pneumonia,Medicaid,Hospice,0,,DR149
+1684,Summit Hospital,2023-08-09,2023-08-13,4,84,F,Pneumonia,Medicare,Home,0,,DR104
+1685,St. Mary Medical Center,2023-10-20,2023-11-01,12,61,F,COPD,Self-Pay,Home,0,,DR102
+1686,Valley Health,2023-12-07,2023-12-14,7,62,F,Heart Failure,UnitedHealth,AMA,0,,DR130
+1687,St. Mary Medical Center,2023-08-12,2023-08-19,7,49,F,Stroke,Medicare,Hospice,0,,DR134
+1688,St. Mary Medical Center,2023-07-03,2023-07-09,6,88,F,Sepsis,Medicare,AMA,1,2,DR148
+1689,Summit Hospital,2023-05-29,2023-06-09,11,57,M,Hip Fracture,Self-Pay,AMA,1,2,DR106
+1690,Summit Hospital,2023-11-19,2023-12-01,12,67,M,COPD,Medicare,SNF,0,,DR101
+1691,Lakeside Medical,2023-10-31,2023-11-04,4,76,F,Stroke,UnitedHealth,AMA,0,,DR101
+1692,St. Mary Medical Center,2023-01-19,2023-01-25,6,48,F,Pneumonia,Medicaid,Hospice,0,,DR129
+1693,Riverside General,2023-12-14,2023-12-28,14,79,M,Heart Failure,Self-Pay,SNF,1,19,DR131
+1694,Lakeside Medical,2023-12-01,2023-12-02,1,75,M,Diabetes,Self-Pay,SNF,0,,DR100
+1695,St. Mary Medical Center,2023-03-30,2023-04-10,11,48,F,COPD,UnitedHealth,Home,0,,DR106
+1696,Riverside General,2023-02-28,2023-03-08,8,83,M,Diabetes,Aetna,Home Health,0,,DR147
+1697,Lakeside Medical,2023-12-14,2023-12-21,7,65,M,Sepsis,Medicaid,Home,1,22,DR137
+1698,Summit Hospital,2023-03-30,2023-04-05,6,49,M,Sepsis,UnitedHealth,SNF,1,5,DR128
+1699,Lakeside Medical,2023-05-05,2023-05-15,10,47,F,COPD,Medicare,AMA,1,26,DR105
+1700,Lakeside Medical,2023-01-04,2023-01-05,1,56,F,AMI,Self-Pay,AMA,0,,DR144
+1701,Lakeside Medical,2023-03-06,2023-03-10,4,54,F,AMI,Medicaid,SNF,0,,DR139
+1702,Lakeside Medical,2023-12-21,2023-12-22,1,83,M,Hip Fracture,Blue Cross,AMA,1,16,DR100
+1703,St. Mary Medical Center,2023-10-13,2023-10-17,4,57,F,Diabetes,Aetna,SNF,1,17,DR117
+1704,Summit Hospital,2023-01-28,2023-02-01,4,52,F,COPD,Medicaid,Home,0,,DR103
+1705,Valley Health,2023-11-27,2023-12-03,6,63,F,Stroke,Medicare,Home,0,,DR147
+1706,Summit Hospital,2023-01-27,2023-02-05,9,56,M,Pneumonia,Medicaid,AMA,1,1,DR137
+1707,Valley Health,2023-10-24,2023-10-30,6,71,M,Pneumonia,Blue Cross,SNF,1,22,DR106
+1708,Summit Hospital,2023-05-02,2023-05-14,12,71,M,Pneumonia,Aetna,Hospice,0,,DR131
+1709,Lakeside Medical,2023-01-28,2023-02-04,7,54,F,COPD,Aetna,Home Health,0,,DR108
+1710,Valley Health,2023-08-23,2023-09-04,12,57,M,Sepsis,Medicaid,Home,0,,DR144
+1711,Summit Hospital,2023-10-19,2023-10-20,1,62,F,AMI,Medicaid,Home Health,1,28,DR114
+1712,Lakeside Medical,2023-06-01,2023-06-11,10,55,M,Diabetes,Medicare,AMA,0,,DR133
+1713,Summit Hospital,2023-09-08,2023-09-22,14,58,F,Heart Failure,Self-Pay,AMA,0,,DR147
+1714,Riverside General,2023-05-07,2023-05-11,4,65,M,Heart Failure,Aetna,Home,0,,DR102
+1715,Summit Hospital,2023-08-29,2023-09-10,12,77,F,Pneumonia,Aetna,AMA,1,17,DR115
+1716,Summit Hospital,2023-02-12,2023-02-21,9,45,M,COPD,Blue Cross,Home Health,0,,DR115
+1717,Valley Health,2023-11-28,2023-11-30,2,46,M,Stroke,UnitedHealth,Hospice,0,,DR101
+1718,Summit Hospital,2023-08-21,2023-08-29,8,53,M,Sepsis,Self-Pay,AMA,0,,DR145
+1719,Valley Health,2023-11-21,2023-11-22,1,85,M,Hip Fracture,Aetna,Home Health,1,29,DR144
+1720,St. Mary Medical Center,2023-11-10,2023-11-19,9,81,F,Heart Failure,UnitedHealth,Home Health,0,,DR103
+1721,St. Mary Medical Center,2023-02-26,2023-03-05,7,68,F,Sepsis,Medicaid,Hospice,0,,DR145
+1722,Riverside General,2023-02-04,2023-02-13,9,90,F,Diabetes,UnitedHealth,Home,0,,DR141
+1723,Riverside General,2023-09-02,2023-09-14,12,82,M,Sepsis,Blue Cross,Home Health,0,,DR132
+1724,Valley Health,2023-12-15,2023-12-22,7,62,F,Stroke,UnitedHealth,Hospice,1,12,DR107
+1725,Lakeside Medical,2023-08-29,2023-09-10,12,79,F,Stroke,UnitedHealth,Home Health,0,,DR143
+1726,Summit Hospital,2023-12-21,2024-01-03,13,49,M,Pneumonia,Aetna,SNF,1,29,DR118
+1727,Riverside General,2023-02-09,2023-02-11,2,55,F,COPD,Medicaid,Hospice,0,,DR140
+1728,Lakeside Medical,2023-01-12,2023-01-17,5,71,M,Stroke,Blue Cross,AMA,0,,DR128
+1729,St. Mary Medical Center,2023-11-27,2023-11-28,1,63,M,Sepsis,Aetna,Hospice,0,,DR121
+1730,Lakeside Medical,2023-12-02,2023-12-13,11,65,F,Stroke,Blue Cross,Hospice,0,,DR108
+1731,Valley Health,2023-06-06,2023-06-09,3,61,F,Heart Failure,Medicaid,Home Health,0,,DR118
+1732,Lakeside Medical,2023-08-22,2023-08-25,3,84,F,COPD,Medicaid,SNF,0,,DR110
+1733,Lakeside Medical,2023-05-02,2023-05-04,2,47,M,Stroke,Blue Cross,Home Health,0,,DR111
+1734,Valley Health,2023-04-16,2023-04-25,9,90,M,Sepsis,Aetna,Hospice,1,11,DR110
+1735,Summit Hospital,2023-10-01,2023-10-06,5,52,F,COPD,Aetna,Home Health,0,,DR109
+1736,Valley Health,2023-01-03,2023-01-15,12,79,F,Stroke,Blue Cross,Hospice,0,,DR142
+1737,Summit Hospital,2023-03-17,2023-03-30,13,81,F,Pneumonia,Self-Pay,AMA,0,,DR102
+1738,Summit Hospital,2023-03-13,2023-03-24,11,80,M,Stroke,Blue Cross,Home,1,1,DR120
+1739,Riverside General,2023-01-29,2023-02-08,10,86,F,Diabetes,Medicare,Home,1,17,DR134
+1740,Lakeside Medical,2023-08-17,2023-08-28,11,87,F,Diabetes,Aetna,Home Health,0,,DR138
+1741,Valley Health,2023-11-06,2023-11-15,9,48,F,COPD,Self-Pay,AMA,0,,DR123
+1742,Valley Health,2023-07-17,2023-07-23,6,45,F,Stroke,UnitedHealth,Home,0,,DR113
+1743,Valley Health,2023-08-16,2023-08-28,12,71,M,AMI,Self-Pay,AMA,0,,DR108
+1744,Summit Hospital,2023-10-28,2023-11-07,10,50,F,Pneumonia,UnitedHealth,AMA,1,10,DR105
+1745,Summit Hospital,2023-01-04,2023-01-11,7,85,M,Stroke,Self-Pay,Hospice,0,,DR148
+1746,Valley Health,2023-03-12,2023-03-16,4,56,F,Heart Failure,Blue Cross,Hospice,0,,DR119
+1747,St. Mary Medical Center,2023-09-10,2023-09-19,9,74,M,Hip Fracture,Blue Cross,AMA,1,26,DR107
+1748,Summit Hospital,2023-12-01,2023-12-12,11,63,M,Heart Failure,Medicare,Home Health,0,,DR131
+1749,Lakeside Medical,2023-02-04,2023-02-14,10,68,F,Hip Fracture,Self-Pay,AMA,0,,DR144
+1750,St. Mary Medical Center,2023-03-03,2023-03-09,6,77,F,COPD,UnitedHealth,Home,0,,DR109
+1751,St. Mary Medical Center,2023-06-13,2023-06-21,8,89,F,Sepsis,Aetna,Home Health,1,6,DR103
+1752,St. Mary Medical Center,2023-05-29,2023-06-03,5,78,M,COPD,Medicare,Hospice,0,,DR148
+1753,Valley Health,2023-03-27,2023-04-05,9,65,F,Sepsis,Medicare,Hospice,0,,DR137
+1754,Valley Health,2023-06-30,2023-07-14,14,54,F,Stroke,Aetna,Home Health,1,17,DR110
+1755,Riverside General,2023-02-22,2023-02-26,4,54,M,AMI,Aetna,Home,0,,DR107
+1756,Valley Health,2023-03-09,2023-03-10,1,75,M,Stroke,UnitedHealth,Hospice,0,,DR148
+1757,St. Mary Medical Center,2023-06-25,2023-06-28,3,90,M,COPD,Self-Pay,SNF,1,24,DR144
+1758,St. Mary Medical Center,2023-04-27,2023-05-02,5,53,F,Pneumonia,Medicare,Home,0,,DR149
+1759,St. Mary Medical Center,2023-09-05,2023-09-18,13,72,M,Stroke,Medicare,Home Health,1,4,DR102
+1760,St. Mary Medical Center,2023-02-03,2023-02-08,5,87,M,Diabetes,Medicaid,Home Health,1,4,DR101
+1761,Valley Health,2023-02-16,2023-02-19,3,62,F,COPD,UnitedHealth,Hospice,0,,DR115
+1762,St. Mary Medical Center,2023-09-16,2023-09-26,10,49,M,Diabetes,Blue Cross,SNF,1,19,DR148
+1763,Lakeside Medical,2023-10-03,2023-10-04,1,51,F,Sepsis,Self-Pay,Hospice,0,,DR111
+1764,Summit Hospital,2023-08-14,2023-08-25,11,51,F,Diabetes,UnitedHealth,SNF,1,12,DR126
+1765,Lakeside Medical,2023-02-27,2023-03-12,13,65,M,Stroke,Blue Cross,Home Health,1,4,DR135
+1766,Summit Hospital,2023-01-21,2023-01-23,2,65,F,Stroke,UnitedHealth,Home Health,0,,DR143
+1767,Summit Hospital,2023-08-16,2023-08-20,4,80,M,Pneumonia,Aetna,Home Health,0,,DR111
+1768,Summit Hospital,2023-01-07,2023-01-18,11,76,F,Pneumonia,Medicare,SNF,0,,DR125
+1769,Riverside General,2023-07-25,2023-08-06,12,82,M,Sepsis,Medicaid,Home Health,0,,DR112
+1770,Summit Hospital,2023-11-01,2023-11-15,14,70,F,Hip Fracture,Self-Pay,Hospice,1,27,DR137
+1771,Valley Health,2023-05-20,2023-06-02,13,86,F,AMI,Aetna,Hospice,0,,DR117
+1772,Summit Hospital,2023-03-17,2023-03-30,13,74,F,Diabetes,Self-Pay,SNF,1,9,DR101
+1773,Summit Hospital,2023-02-20,2023-03-04,12,48,M,COPD,Aetna,Hospice,0,,DR143
+1774,St. Mary Medical Center,2023-06-17,2023-06-20,3,64,M,Stroke,Aetna,SNF,0,,DR118
+1775,Lakeside Medical,2023-12-05,2023-12-13,8,76,F,Heart Failure,Medicare,AMA,0,,DR107
+1776,Summit Hospital,2023-07-16,2023-07-24,8,65,F,Heart Failure,Medicare,SNF,0,,DR135
+1777,Riverside General,2023-12-04,2023-12-18,14,64,F,AMI,Medicaid,Home Health,0,,DR145
+1778,Summit Hospital,2023-07-19,2023-07-27,8,52,F,Stroke,UnitedHealth,SNF,0,,DR132
+1779,Summit Hospital,2023-01-29,2023-02-05,7,61,F,Hip Fracture,Blue Cross,Home,0,,DR101
+1780,Valley Health,2023-10-30,2023-10-31,1,53,M,Sepsis,Aetna,Home,0,,DR127
+1781,Riverside General,2023-06-26,2023-07-02,6,71,M,Diabetes,Self-Pay,Home Health,0,,DR137
+1782,St. Mary Medical Center,2023-02-13,2023-02-25,12,49,F,COPD,Medicare,Hospice,0,,DR120
+1783,Lakeside Medical,2023-01-20,2023-01-28,8,87,F,Hip Fracture,Medicare,AMA,0,,DR137
+1784,Valley Health,2023-01-12,2023-01-18,6,69,M,Stroke,Medicare,SNF,0,,DR121
+1785,Valley Health,2023-09-12,2023-09-21,9,87,F,AMI,Medicaid,AMA,1,20,DR140
+1786,St. Mary Medical Center,2023-02-08,2023-02-22,14,79,F,AMI,Medicaid,Hospice,1,9,DR147
+1787,Valley Health,2023-02-17,2023-03-01,12,82,M,Stroke,Aetna,SNF,1,11,DR122
+1788,Valley Health,2023-02-09,2023-02-20,11,64,F,Sepsis,Medicaid,AMA,0,,DR125
+1789,Lakeside Medical,2023-05-09,2023-05-19,10,77,M,Heart Failure,Self-Pay,Hospice,0,,DR111
+1790,Summit Hospital,2023-10-23,2023-10-31,8,58,F,AMI,UnitedHealth,Home,0,,DR133
+1791,Valley Health,2023-04-13,2023-04-19,6,74,F,AMI,Blue Cross,Home,1,5,DR140
+1792,Valley Health,2023-04-15,2023-04-29,14,71,M,Hip Fracture,Self-Pay,Hospice,0,,DR115
+1793,Riverside General,2023-07-27,2023-07-31,4,52,F,Stroke,Aetna,Hospice,1,1,DR127
+1794,Valley Health,2023-08-05,2023-08-16,11,47,M,Heart Failure,Blue Cross,Home Health,0,,DR142
+1795,Summit Hospital,2023-10-09,2023-10-12,3,86,M,Heart Failure,Medicare,Home Health,0,,DR138
+1796,Summit Hospital,2023-06-02,2023-06-16,14,49,F,Pneumonia,Aetna,SNF,0,,DR115
+1797,Lakeside Medical,2023-02-27,2023-03-09,10,77,F,Stroke,Medicare,SNF,0,,DR138
+1798,Lakeside Medical,2023-03-04,2023-03-17,13,65,F,Diabetes,Aetna,SNF,0,,DR109
+1799,Summit Hospital,2023-02-24,2023-02-27,3,58,F,Hip Fracture,UnitedHealth,Home,0,,DR131
+1800,Valley Health,2023-10-01,2023-10-07,6,89,F,Stroke,Self-Pay,SNF,0,,DR117
+1801,Valley Health,2023-03-16,2023-03-22,6,75,M,Heart Failure,Self-Pay,Home,0,,DR144
+1802,Valley Health,2023-12-10,2023-12-14,4,61,F,Pneumonia,UnitedHealth,SNF,0,,DR128
+1803,Valley Health,2023-07-18,2023-07-19,1,70,F,Pneumonia,Medicaid,Home Health,0,,DR113
+1804,Summit Hospital,2023-03-24,2023-04-01,8,85,M,Hip Fracture,Medicare,AMA,1,26,DR130
+1805,St. Mary Medical Center,2023-07-31,2023-08-14,14,66,M,Hip Fracture,UnitedHealth,Home,0,,DR122
+1806,Summit Hospital,2023-08-04,2023-08-14,10,80,M,Heart Failure,Self-Pay,SNF,0,,DR140
+1807,Riverside General,2023-08-16,2023-08-29,13,86,F,Sepsis,UnitedHealth,Home,1,13,DR107
+1808,Riverside General,2023-03-22,2023-03-26,4,78,F,Sepsis,Aetna,AMA,0,,DR147
+1809,Valley Health,2023-03-10,2023-03-15,5,56,F,Diabetes,Medicare,AMA,0,,DR123
+1810,Lakeside Medical,2023-04-04,2023-04-11,7,69,M,Heart Failure,Medicare,Hospice,0,,DR141
+1811,Summit Hospital,2023-11-10,2023-11-21,11,59,M,Hip Fracture,Self-Pay,SNF,0,,DR103
+1812,Riverside General,2023-07-25,2023-08-04,10,72,M,Sepsis,Medicaid,Hospice,0,,DR107
+1813,Summit Hospital,2023-01-08,2023-01-20,12,78,F,Pneumonia,Medicaid,SNF,0,,DR112
+1814,Summit Hospital,2023-05-17,2023-05-22,5,76,M,Diabetes,Blue Cross,SNF,0,,DR126
+1815,Riverside General,2023-04-03,2023-04-10,7,54,F,Diabetes,Blue Cross,Hospice,1,9,DR143
+1816,Valley Health,2023-11-28,2023-12-06,8,50,F,Diabetes,Self-Pay,AMA,1,5,DR145
+1817,Lakeside Medical,2023-08-05,2023-08-17,12,83,M,Heart Failure,Blue Cross,SNF,1,4,DR130
+1818,Lakeside Medical,2023-07-01,2023-07-11,10,87,M,Heart Failure,Blue Cross,Hospice,0,,DR139
+1819,Riverside General,2023-07-15,2023-07-20,5,70,M,COPD,Blue Cross,SNF,0,,DR132
+1820,Lakeside Medical,2023-09-10,2023-09-16,6,74,F,COPD,Blue Cross,Home,1,11,DR120
+1821,Valley Health,2023-01-23,2023-01-26,3,76,F,AMI,Blue Cross,Home Health,0,,DR139
+1822,Riverside General,2023-05-16,2023-05-25,9,65,F,Stroke,Medicaid,Hospice,0,,DR142
+1823,St. Mary Medical Center,2023-11-22,2023-12-05,13,73,M,COPD,Medicare,AMA,1,5,DR116
+1824,Summit Hospital,2023-03-25,2023-04-06,12,74,M,Stroke,Blue Cross,Hospice,0,,DR131
+1825,Riverside General,2023-08-23,2023-08-31,8,52,M,Sepsis,Medicare,SNF,0,,DR118
+1826,Valley Health,2023-04-03,2023-04-17,14,55,M,Heart Failure,UnitedHealth,Hospice,0,,DR111
+1827,St. Mary Medical Center,2023-08-02,2023-08-04,2,60,F,Heart Failure,Blue Cross,Home,0,,DR125
+1828,Riverside General,2023-07-11,2023-07-21,10,51,M,Pneumonia,Aetna,AMA,0,,DR129
+1829,Valley Health,2023-11-18,2023-11-23,5,83,M,Stroke,Blue Cross,Hospice,0,,DR108
+1830,Valley Health,2023-04-19,2023-05-03,14,48,F,Heart Failure,Self-Pay,Home,0,,DR135
+1831,Riverside General,2023-11-05,2023-11-12,7,50,M,AMI,Medicare,Home,0,,DR113
+1832,Riverside General,2023-03-25,2023-04-01,7,70,M,Hip Fracture,Aetna,AMA,0,,DR147
+1833,St. Mary Medical Center,2023-06-08,2023-06-19,11,83,F,Diabetes,Aetna,AMA,1,22,DR124
+1834,St. Mary Medical Center,2023-09-01,2023-09-06,5,81,F,Sepsis,UnitedHealth,SNF,0,,DR127
+1835,Summit Hospital,2023-11-19,2023-11-26,7,50,M,COPD,Aetna,Hospice,1,11,DR140
+1836,Summit Hospital,2023-11-28,2023-12-07,9,50,M,Stroke,Blue Cross,SNF,0,,DR108
+1837,Valley Health,2023-12-17,2023-12-22,5,60,M,Pneumonia,Medicare,Hospice,0,,DR106
+1838,Lakeside Medical,2023-09-19,2023-09-26,7,71,F,Sepsis,Blue Cross,Hospice,1,22,DR105
+1839,Summit Hospital,2023-09-15,2023-09-16,1,52,M,COPD,Aetna,Home,0,,DR105
+1840,Summit Hospital,2023-08-02,2023-08-14,12,64,F,Hip Fracture,Blue Cross,SNF,0,,DR113
+1841,St. Mary Medical Center,2023-04-05,2023-04-07,2,83,F,Heart Failure,Medicare,AMA,1,22,DR107
+1842,Summit Hospital,2023-01-07,2023-01-10,3,86,F,Hip Fracture,UnitedHealth,Hospice,0,,DR123
+1843,Valley Health,2023-12-20,2023-12-31,11,89,M,COPD,Medicaid,Home,0,,DR112
+1844,Riverside General,2023-02-27,2023-03-13,14,46,M,Diabetes,Aetna,SNF,0,,DR141
+1845,Lakeside Medical,2023-05-04,2023-05-11,7,85,M,Pneumonia,Blue Cross,AMA,0,,DR109
+1846,Riverside General,2023-08-31,2023-09-07,7,46,F,Stroke,Aetna,Home,1,29,DR128
+1847,Summit Hospital,2023-10-27,2023-10-31,4,57,M,Sepsis,Medicare,Home,0,,DR140
+1848,Lakeside Medical,2023-08-10,2023-08-17,7,76,F,Heart Failure,Aetna,AMA,0,,DR131
+1849,Summit Hospital,2023-09-20,2023-09-30,10,84,M,Heart Failure,UnitedHealth,Home,0,,DR127
+1850,Summit Hospital,2023-10-23,2023-10-29,6,80,F,Pneumonia,Aetna,Hospice,1,29,DR141
+1851,Valley Health,2023-06-27,2023-07-05,8,89,M,Stroke,Blue Cross,AMA,1,6,DR114
+1852,Valley Health,2023-09-17,2023-09-21,4,82,F,COPD,Blue Cross,AMA,0,,DR126
+1853,Riverside General,2023-12-11,2023-12-22,11,68,M,Hip Fracture,Self-Pay,Home,0,,DR142
+1854,Lakeside Medical,2023-09-05,2023-09-08,3,56,F,Pneumonia,Aetna,AMA,0,,DR119
+1855,Valley Health,2023-05-01,2023-05-05,4,80,F,Sepsis,Self-Pay,SNF,1,1,DR111
+1856,St. Mary Medical Center,2023-09-15,2023-09-16,1,49,M,Pneumonia,UnitedHealth,SNF,0,,DR131
+1857,Lakeside Medical,2023-05-13,2023-05-19,6,67,F,COPD,Self-Pay,Hospice,0,,DR138
+1858,Summit Hospital,2023-12-09,2023-12-11,2,90,M,Pneumonia,UnitedHealth,Hospice,1,15,DR150
+1859,Riverside General,2023-02-22,2023-03-08,14,80,M,Diabetes,Blue Cross,SNF,1,4,DR146
+1860,Summit Hospital,2023-05-30,2023-06-11,12,73,M,COPD,Self-Pay,Home Health,0,,DR121
+1861,Summit Hospital,2023-03-12,2023-03-14,2,57,M,Diabetes,Aetna,Home Health,0,,DR118
+1862,Summit Hospital,2023-09-16,2023-09-19,3,50,F,Diabetes,Medicaid,Hospice,0,,DR126
+1863,Summit Hospital,2023-04-27,2023-04-30,3,72,F,Sepsis,Medicare,AMA,0,,DR109
+1864,St. Mary Medical Center,2023-01-06,2023-01-18,12,78,F,Sepsis,Aetna,SNF,0,,DR127
+1865,Riverside General,2023-02-01,2023-02-08,7,47,M,Hip Fracture,Aetna,AMA,0,,DR143
+1866,Valley Health,2023-12-25,2024-01-03,9,64,F,Heart Failure,Blue Cross,Hospice,0,,DR139
+1867,Riverside General,2023-03-17,2023-03-29,12,70,F,Sepsis,Self-Pay,AMA,0,,DR149
+1868,Summit Hospital,2023-04-12,2023-04-17,5,50,M,Hip Fracture,Medicaid,Home,1,11,DR132
+1869,Riverside General,2023-10-10,2023-10-15,5,78,M,Heart Failure,UnitedHealth,Hospice,0,,DR116
+1870,Lakeside Medical,2023-05-04,2023-05-18,14,64,M,Heart Failure,Blue Cross,Home Health,0,,DR140
+1871,St. Mary Medical Center,2023-09-17,2023-09-23,6,52,F,Hip Fracture,UnitedHealth,Home,1,21,DR129
+1872,Lakeside Medical,2023-06-23,2023-06-27,4,82,M,Sepsis,Blue Cross,Home Health,0,,DR142
+1873,Lakeside Medical,2023-10-21,2023-11-01,11,53,M,Pneumonia,Blue Cross,Hospice,0,,DR137
+1874,Riverside General,2023-04-09,2023-04-23,14,68,F,AMI,Medicare,Home,0,,DR103
+1875,Valley Health,2023-08-06,2023-08-09,3,75,F,AMI,Blue Cross,Hospice,1,3,DR131
+1876,Summit Hospital,2023-11-22,2023-11-29,7,73,F,COPD,Medicaid,Hospice,0,,DR108
+1877,Lakeside Medical,2023-09-06,2023-09-18,12,74,M,Diabetes,Aetna,AMA,1,23,DR102
+1878,St. Mary Medical Center,2023-03-22,2023-03-31,9,68,F,Pneumonia,Medicare,Home Health,0,,DR136
+1879,Valley Health,2023-05-29,2023-05-30,1,78,F,Hip Fracture,Blue Cross,AMA,1,12,DR101
+1880,Valley Health,2023-03-15,2023-03-18,3,82,F,Diabetes,Medicaid,AMA,0,,DR100
+1881,Summit Hospital,2023-03-04,2023-03-13,9,67,F,Hip Fracture,UnitedHealth,AMA,1,2,DR121
+1882,Lakeside Medical,2023-07-13,2023-07-21,8,83,F,Stroke,Self-Pay,AMA,1,5,DR109
+1883,Summit Hospital,2023-06-16,2023-06-18,2,84,F,Diabetes,Aetna,Home Health,0,,DR134
+1884,St. Mary Medical Center,2023-01-24,2023-02-04,11,73,M,Heart Failure,UnitedHealth,Home Health,0,,DR135
+1885,Riverside General,2023-11-27,2023-11-29,2,86,M,Diabetes,Aetna,Hospice,0,,DR101
+1886,Valley Health,2023-03-03,2023-03-14,11,79,M,Diabetes,Self-Pay,Hospice,1,1,DR128
+1887,Summit Hospital,2023-02-13,2023-02-26,13,79,M,Stroke,Medicare,Home Health,0,,DR127
+1888,Valley Health,2023-04-03,2023-04-10,7,46,F,Hip Fracture,Medicare,Home,0,,DR106
+1889,St. Mary Medical Center,2023-10-05,2023-10-08,3,63,M,Hip Fracture,Aetna,SNF,1,9,DR103
+1890,Valley Health,2023-11-11,2023-11-17,6,56,F,Pneumonia,Blue Cross,SNF,1,2,DR126
+1891,St. Mary Medical Center,2023-06-15,2023-06-20,5,69,M,Diabetes,Medicaid,Hospice,0,,DR137
+1892,Summit Hospital,2023-05-02,2023-05-10,8,77,M,Hip Fracture,Medicare,Home Health,0,,DR129
+1893,Summit Hospital,2023-10-11,2023-10-18,7,49,M,Heart Failure,Blue Cross,Hospice,0,,DR137
+1894,Riverside General,2023-12-12,2023-12-14,2,60,F,AMI,Aetna,Home,0,,DR140
+1895,Riverside General,2023-09-14,2023-09-18,4,54,M,AMI,UnitedHealth,AMA,0,,DR102
+1896,Lakeside Medical,2023-01-01,2023-01-15,14,74,F,COPD,Medicare,Home,0,,DR130
+1897,Summit Hospital,2023-05-20,2023-05-30,10,61,F,Diabetes,UnitedHealth,Hospice,0,,DR118
+1898,Valley Health,2023-01-24,2023-01-27,3,79,M,AMI,Self-Pay,Home,0,,DR108
+1899,Valley Health,2023-10-12,2023-10-17,5,72,F,Hip Fracture,Self-Pay,AMA,1,17,DR117
+1900,Summit Hospital,2023-05-06,2023-05-17,11,65,F,Heart Failure,Self-Pay,SNF,0,,DR141
+1901,Riverside General,2023-01-02,2023-01-12,10,75,F,Stroke,Aetna,Hospice,1,1,DR105
+1902,Summit Hospital,2023-11-29,2023-12-10,11,49,M,Sepsis,Aetna,Hospice,0,,DR122
+1903,St. Mary Medical Center,2023-07-18,2023-07-21,3,89,F,Sepsis,Medicaid,AMA,0,,DR100
+1904,Valley Health,2023-04-24,2023-05-06,12,46,M,Pneumonia,UnitedHealth,Home Health,0,,DR145
+1905,St. Mary Medical Center,2023-04-24,2023-04-28,4,76,F,Stroke,Self-Pay,Hospice,0,,DR113
+1906,Valley Health,2023-01-04,2023-01-08,4,85,F,COPD,UnitedHealth,SNF,0,,DR142
+1907,Riverside General,2023-10-17,2023-10-28,11,88,M,COPD,Self-Pay,Home,0,,DR108
+1908,Valley Health,2023-05-13,2023-05-23,10,59,M,Heart Failure,Self-Pay,Hospice,0,,DR139
+1909,St. Mary Medical Center,2023-05-10,2023-05-21,11,80,F,Heart Failure,Blue Cross,AMA,0,,DR126
+1910,Summit Hospital,2023-05-21,2023-05-23,2,88,F,Heart Failure,Self-Pay,SNF,0,,DR103
+1911,St. Mary Medical Center,2023-05-23,2023-05-30,7,79,F,Diabetes,Blue Cross,Home,0,,DR136
+1912,Summit Hospital,2023-01-13,2023-01-25,12,59,M,Diabetes,Medicaid,SNF,0,,DR121
+1913,St. Mary Medical Center,2023-06-09,2023-06-11,2,85,F,AMI,Medicare,Hospice,0,,DR140
+1914,Summit Hospital,2023-06-21,2023-07-05,14,61,M,Sepsis,Medicare,Home Health,0,,DR133
+1915,St. Mary Medical Center,2023-05-02,2023-05-04,2,83,F,Pneumonia,Medicare,Home,0,,DR102
+1916,St. Mary Medical Center,2023-07-13,2023-07-19,6,89,F,Heart Failure,Blue Cross,Hospice,1,5,DR140
+1917,Lakeside Medical,2023-08-10,2023-08-12,2,51,M,Hip Fracture,Aetna,AMA,0,,DR106
+1918,Lakeside Medical,2023-11-13,2023-11-26,13,71,M,Stroke,Aetna,AMA,1,20,DR150
+1919,St. Mary Medical Center,2023-08-08,2023-08-18,10,84,F,Sepsis,UnitedHealth,SNF,1,21,DR106
+1920,Lakeside Medical,2023-02-22,2023-02-23,1,83,M,COPD,Self-Pay,Hospice,0,,DR116
+1921,Summit Hospital,2023-07-01,2023-07-08,7,75,M,Diabetes,Medicaid,Home,0,,DR103
+1922,Valley Health,2023-03-07,2023-03-12,5,82,F,COPD,Medicaid,AMA,0,,DR119
+1923,St. Mary Medical Center,2023-11-05,2023-11-11,6,63,M,Heart Failure,Medicaid,Hospice,0,,DR135
+1924,Riverside General,2023-01-28,2023-02-04,7,67,M,Pneumonia,Blue Cross,SNF,0,,DR142
+1925,Lakeside Medical,2023-09-01,2023-09-13,12,89,F,Sepsis,UnitedHealth,Home Health,0,,DR126
+1926,St. Mary Medical Center,2023-06-18,2023-06-21,3,51,F,Diabetes,Medicare,SNF,0,,DR144
+1927,Valley Health,2023-04-28,2023-05-06,8,84,F,Diabetes,Aetna,SNF,1,16,DR100
+1928,Lakeside Medical,2023-07-05,2023-07-06,1,49,M,COPD,Blue Cross,AMA,0,,DR112
+1929,Riverside General,2023-11-20,2023-11-30,10,68,M,Hip Fracture,Medicaid,SNF,1,1,DR116
+1930,St. Mary Medical Center,2023-03-31,2023-04-06,6,80,M,Hip Fracture,Medicare,Home,1,7,DR143
+1931,St. Mary Medical Center,2023-03-12,2023-03-19,7,86,F,Diabetes,Blue Cross,AMA,0,,DR115
+1932,Lakeside Medical,2023-07-09,2023-07-22,13,68,F,Pneumonia,Medicare,SNF,0,,DR108
+1933,Valley Health,2023-04-08,2023-04-12,4,79,F,AMI,Self-Pay,SNF,0,,DR102
+1934,Valley Health,2023-11-12,2023-11-22,10,57,M,Sepsis,Medicaid,Home,0,,DR140
+1935,Lakeside Medical,2023-05-24,2023-06-07,14,53,F,Diabetes,Self-Pay,Home,0,,DR150
+1936,Riverside General,2023-08-29,2023-09-11,13,87,F,Sepsis,Aetna,Hospice,0,,DR129
+1937,Summit Hospital,2023-04-02,2023-04-08,6,90,F,Stroke,Blue Cross,Hospice,1,23,DR125
+1938,Riverside General,2023-11-23,2023-12-06,13,82,M,Diabetes,Aetna,SNF,0,,DR125
+1939,Lakeside Medical,2023-04-22,2023-04-27,5,72,M,Sepsis,Blue Cross,Hospice,0,,DR105
+1940,Lakeside Medical,2023-03-10,2023-03-23,13,50,F,Diabetes,UnitedHealth,Home,0,,DR129
+1941,Summit Hospital,2023-09-20,2023-09-30,10,66,F,AMI,Blue Cross,AMA,0,,DR120
+1942,Riverside General,2023-05-20,2023-05-27,7,46,F,Pneumonia,Blue Cross,Home,0,,DR118
+1943,Valley Health,2023-09-14,2023-09-23,9,79,M,Pneumonia,Medicare,Home,0,,DR123
+1944,Valley Health,2023-01-20,2023-01-29,9,57,F,Hip Fracture,Self-Pay,Home Health,0,,DR112
+1945,Lakeside Medical,2023-12-28,2024-01-07,10,53,F,Heart Failure,Blue Cross,Home Health,0,,DR122
+1946,St. Mary Medical Center,2023-07-26,2023-08-02,7,82,F,COPD,Aetna,SNF,0,,DR114
+1947,Lakeside Medical,2023-04-18,2023-04-26,8,59,F,Stroke,Blue Cross,Home,0,,DR120
+1948,Summit Hospital,2023-04-07,2023-04-14,7,89,F,Heart Failure,Blue Cross,SNF,0,,DR136
+1949,Valley Health,2023-03-07,2023-03-12,5,45,F,Diabetes,Aetna,AMA,0,,DR143
+1950,Valley Health,2023-07-26,2023-08-08,13,89,M,Heart Failure,Medicaid,SNF,0,,DR121
+1951,Lakeside Medical,2023-10-18,2023-10-29,11,83,F,AMI,Medicaid,AMA,0,,DR104
+1952,Valley Health,2023-10-01,2023-10-08,7,57,F,Hip Fracture,Medicare,SNF,0,,DR106
+1953,Lakeside Medical,2023-12-12,2023-12-21,9,56,F,Heart Failure,Medicaid,SNF,1,23,DR104
+1954,Lakeside Medical,2023-07-17,2023-07-22,5,58,M,Stroke,Medicare,Home Health,0,,DR133
+1955,Summit Hospital,2023-01-06,2023-01-09,3,65,F,COPD,Medicare,SNF,0,,DR134
+1956,Riverside General,2023-08-03,2023-08-11,8,49,M,Diabetes,Blue Cross,AMA,0,,DR145
+1957,Valley Health,2023-12-07,2023-12-15,8,55,M,Stroke,Blue Cross,SNF,0,,DR100
+1958,Lakeside Medical,2023-03-15,2023-03-23,8,49,M,Sepsis,UnitedHealth,AMA,0,,DR129
+1959,Valley Health,2023-08-25,2023-09-04,10,47,F,Sepsis,Self-Pay,Home Health,0,,DR125
+1960,Riverside General,2023-11-10,2023-11-24,14,56,F,Stroke,Aetna,SNF,0,,DR144
+1961,St. Mary Medical Center,2023-10-19,2023-10-21,2,70,M,COPD,Blue Cross,Hospice,0,,DR118
+1962,Riverside General,2023-12-08,2023-12-10,2,89,F,AMI,UnitedHealth,Home,0,,DR123
+1963,Valley Health,2023-02-09,2023-02-22,13,51,F,Stroke,Medicaid,Home Health,0,,DR113
+1964,Summit Hospital,2023-09-17,2023-09-18,1,74,F,Sepsis,Self-Pay,AMA,1,21,DR112
+1965,Riverside General,2023-07-23,2023-07-24,1,45,F,Stroke,Aetna,AMA,0,,DR104
+1966,Riverside General,2023-02-12,2023-02-21,9,87,F,Hip Fracture,Medicaid,SNF,1,15,DR101
+1967,Lakeside Medical,2023-11-07,2023-11-09,2,56,F,COPD,Medicare,Home,0,,DR143
+1968,Riverside General,2023-05-20,2023-05-23,3,73,M,Diabetes,Aetna,Home,0,,DR140
+1969,St. Mary Medical Center,2023-09-25,2023-10-06,11,87,F,Hip Fracture,Aetna,Home,0,,DR138
+1970,Riverside General,2023-01-03,2023-01-04,1,69,F,Diabetes,Medicaid,Home,0,,DR101
+1971,Riverside General,2023-08-04,2023-08-05,1,45,M,Diabetes,Medicare,SNF,0,,DR146
+1972,Valley Health,2023-03-27,2023-03-28,1,71,F,Diabetes,UnitedHealth,SNF,0,,DR134
+1973,St. Mary Medical Center,2023-07-22,2023-07-29,7,52,F,Sepsis,Medicaid,Home,0,,DR125
+1974,Summit Hospital,2023-12-01,2023-12-07,6,45,M,Pneumonia,Self-Pay,Home Health,0,,DR141
+1975,Summit Hospital,2023-11-16,2023-11-22,6,47,F,Stroke,Medicare,Hospice,1,7,DR150
+1976,Lakeside Medical,2023-10-19,2023-10-22,3,61,F,AMI,Self-Pay,SNF,0,,DR121
+1977,Summit Hospital,2023-03-31,2023-04-11,11,89,M,Sepsis,Medicare,Hospice,1,28,DR137
+1978,Riverside General,2023-08-18,2023-08-25,7,77,M,Diabetes,Medicare,Hospice,0,,DR148
+1979,Riverside General,2023-03-05,2023-03-10,5,60,M,Heart Failure,Medicaid,Home Health,0,,DR131
+1980,St. Mary Medical Center,2023-06-01,2023-06-05,4,54,M,Stroke,Self-Pay,Home Health,0,,DR108
+1981,St. Mary Medical Center,2023-05-23,2023-05-29,6,86,F,Hip Fracture,Medicare,SNF,0,,DR146
+1982,St. Mary Medical Center,2023-06-19,2023-06-25,6,60,M,Diabetes,UnitedHealth,AMA,0,,DR133
+1983,St. Mary Medical Center,2023-06-14,2023-06-17,3,73,F,Pneumonia,Medicaid,Home,0,,DR140
+1984,Lakeside Medical,2023-03-14,2023-03-18,4,53,M,Diabetes,UnitedHealth,Home,1,19,DR127
+1985,Riverside General,2023-08-28,2023-09-02,5,55,F,COPD,UnitedHealth,SNF,0,,DR119
+1986,Riverside General,2023-05-27,2023-06-06,10,73,F,Stroke,Medicare,Home Health,0,,DR125
+1987,Lakeside Medical,2023-07-13,2023-07-16,3,75,F,COPD,Aetna,Home,0,,DR148
+1988,Valley Health,2023-07-15,2023-07-22,7,50,M,COPD,Blue Cross,AMA,0,,DR129
+1989,Lakeside Medical,2023-06-06,2023-06-14,8,63,F,Pneumonia,Blue Cross,SNF,0,,DR145
+1990,St. Mary Medical Center,2023-08-29,2023-09-02,4,54,M,Sepsis,Aetna,AMA,0,,DR126
+1991,Valley Health,2023-07-22,2023-08-03,12,68,M,AMI,Medicare,Home,0,,DR124
+1992,Valley Health,2023-10-17,2023-10-20,3,57,F,Stroke,Self-Pay,Home Health,0,,DR144
+1993,Riverside General,2023-01-30,2023-02-10,11,69,M,Stroke,Medicare,Home Health,0,,DR140
+1994,Riverside General,2023-12-28,2024-01-08,11,46,F,Stroke,Self-Pay,SNF,0,,DR116
+1995,Riverside General,2023-05-07,2023-05-17,10,82,M,Pneumonia,Medicare,AMA,0,,DR125
+1996,Riverside General,2023-12-28,2024-01-07,10,50,F,COPD,Aetna,Home Health,0,,DR144
+1997,Summit Hospital,2023-06-04,2023-06-13,9,79,F,AMI,Self-Pay,Home,0,,DR106
+1998,Valley Health,2023-11-22,2023-12-02,10,67,M,AMI,Self-Pay,Home Health,0,,DR100
+1999,Summit Hospital,2023-03-28,2023-04-11,14,76,F,Hip Fracture,Self-Pay,AMA,1,3,DR110
+2000,Riverside General,2023-04-01,2023-04-07,6,56,F,COPD,UnitedHealth,Home,0,,DR128
+2001,Riverside General,2023-10-18,2023-11-01,14,58,M,Hip Fracture,Aetna,AMA,1,2,DR140
+2002,St. Mary Medical Center,2023-11-16,2023-11-18,2,85,F,Pneumonia,Blue Cross,Home,1,10,DR121
+2003,St. Mary Medical Center,2023-01-16,2023-01-26,10,60,M,Heart Failure,Blue Cross,Home,0,,DR142
+2004,St. Mary Medical Center,2023-10-26,2023-11-08,13,47,F,Hip Fracture,Aetna,AMA,1,17,DR148
+2005,Valley Health,2023-06-22,2023-07-02,10,72,F,Diabetes,Blue Cross,AMA,0,,DR124
+2006,St. Mary Medical Center,2023-11-09,2023-11-10,1,67,M,Stroke,Self-Pay,AMA,0,,DR146
+2007,Valley Health,2023-03-13,2023-03-14,1,83,M,Sepsis,Aetna,Hospice,1,17,DR143
+2008,Riverside General,2023-12-04,2023-12-18,14,75,M,Sepsis,Medicare,Home Health,0,,DR102
+2009,Summit Hospital,2023-06-16,2023-06-27,11,73,M,Sepsis,Aetna,AMA,1,16,DR142
+2010,Riverside General,2023-12-25,2023-12-27,2,69,M,Heart Failure,Medicaid,AMA,0,,DR150
+2011,Summit Hospital,2023-02-14,2023-02-19,5,88,M,Stroke,Medicare,AMA,0,,DR142
+2012,St. Mary Medical Center,2023-10-04,2023-10-08,4,60,M,AMI,Self-Pay,Home,0,,DR110
+2013,Valley Health,2023-06-17,2023-06-24,7,62,F,Pneumonia,Self-Pay,SNF,0,,DR134
+2014,Valley Health,2023-11-21,2023-12-03,12,76,M,Pneumonia,Self-Pay,Home Health,1,23,DR124
+2015,Summit Hospital,2023-07-15,2023-07-26,11,86,M,Diabetes,Blue Cross,Home,0,,DR118
+2016,Lakeside Medical,2023-02-14,2023-02-16,2,50,M,Pneumonia,UnitedHealth,Home Health,0,,DR108
+2017,Valley Health,2023-06-10,2023-06-17,7,81,M,Diabetes,Aetna,AMA,0,,DR120
+2018,Riverside General,2023-07-06,2023-07-19,13,88,M,Pneumonia,Aetna,Home,0,,DR134
+2019,Valley Health,2023-08-24,2023-08-30,6,54,M,Stroke,Self-Pay,AMA,0,,DR109
+2020,St. Mary Medical Center,2023-11-04,2023-11-09,5,54,F,Hip Fracture,UnitedHealth,Home,0,,DR117
+2021,Riverside General,2023-12-28,2024-01-07,10,75,F,Hip Fracture,Self-Pay,AMA,0,,DR103
+2022,Riverside General,2023-06-20,2023-06-23,3,90,M,COPD,Aetna,AMA,1,24,DR119
+2023,Lakeside Medical,2023-12-04,2023-12-18,14,55,F,Sepsis,Aetna,AMA,0,,DR122
+2024,Valley Health,2023-07-20,2023-07-27,7,49,F,Diabetes,Self-Pay,Hospice,0,,DR125
+2025,Lakeside Medical,2023-02-19,2023-02-22,3,65,M,Hip Fracture,Aetna,SNF,0,,DR136
+2026,Riverside General,2023-03-12,2023-03-20,8,89,M,Diabetes,Self-Pay,SNF,0,,DR147
+2027,Lakeside Medical,2023-11-30,2023-12-01,1,68,M,COPD,Aetna,AMA,0,,DR143
+2028,Summit Hospital,2023-03-28,2023-03-29,1,51,M,Heart Failure,Medicare,Hospice,0,,DR141
+2029,Summit Hospital,2023-06-23,2023-07-03,10,72,M,Heart Failure,Medicare,SNF,0,,DR125
+2030,Riverside General,2023-09-08,2023-09-13,5,89,F,Pneumonia,Aetna,AMA,0,,DR117
+2031,St. Mary Medical Center,2023-11-20,2023-12-01,11,73,M,Pneumonia,Medicare,AMA,0,,DR141
+2032,Lakeside Medical,2023-12-09,2023-12-18,9,59,F,Hip Fracture,Self-Pay,Home,1,19,DR150
+2033,Summit Hospital,2023-10-31,2023-11-03,3,69,F,COPD,Medicare,Home Health,0,,DR104
+2034,St. Mary Medical Center,2023-10-03,2023-10-06,3,70,F,Stroke,Medicare,Hospice,0,,DR137
+2035,Riverside General,2023-10-03,2023-10-15,12,86,M,COPD,UnitedHealth,SNF,1,25,DR100
+2036,Lakeside Medical,2023-10-12,2023-10-20,8,65,M,COPD,Medicare,Hospice,1,5,DR116
+2037,Valley Health,2023-01-18,2023-01-20,2,52,M,AMI,Self-Pay,Home,0,,DR115
+2038,Valley Health,2023-06-03,2023-06-04,1,78,F,COPD,UnitedHealth,AMA,0,,DR144
+2039,Lakeside Medical,2023-06-10,2023-06-19,9,67,M,Pneumonia,Self-Pay,Home,0,,DR115
+2040,Riverside General,2023-01-19,2023-01-23,4,54,M,Diabetes,UnitedHealth,Home Health,0,,DR117
+2041,Lakeside Medical,2023-03-07,2023-03-19,12,84,F,Hip Fracture,Aetna,SNF,0,,DR125
+2042,Riverside General,2023-08-22,2023-08-24,2,61,M,Pneumonia,Self-Pay,Home Health,0,,DR140
+2043,Lakeside Medical,2023-12-23,2024-01-03,11,57,M,AMI,Medicaid,Home Health,0,,DR150
+2044,Riverside General,2023-08-11,2023-08-18,7,46,M,Hip Fracture,Medicare,Hospice,0,,DR107
+2045,St. Mary Medical Center,2023-12-17,2023-12-26,9,71,F,Sepsis,Blue Cross,SNF,1,21,DR114
+2046,Riverside General,2023-05-21,2023-05-22,1,51,F,Pneumonia,Medicare,SNF,0,,DR133
+2047,Lakeside Medical,2023-06-06,2023-06-16,10,76,F,Hip Fracture,UnitedHealth,Home,1,12,DR103
+2048,Lakeside Medical,2023-03-29,2023-04-04,6,69,F,Stroke,UnitedHealth,SNF,1,26,DR116
+2049,Riverside General,2023-01-05,2023-01-16,11,77,M,AMI,UnitedHealth,Home Health,0,,DR103
+2050,Lakeside Medical,2023-11-24,2023-11-30,6,90,F,Stroke,Medicaid,AMA,0,,DR122
+2051,Summit Hospital,2023-08-28,2023-09-06,9,63,M,Hip Fracture,Self-Pay,Home,0,,DR119
+2052,St. Mary Medical Center,2023-07-28,2023-08-10,13,65,M,Diabetes,Medicare,SNF,0,,DR136
+2053,Summit Hospital,2023-01-30,2023-02-01,2,63,M,AMI,Self-Pay,Hospice,0,,DR146
+2054,Lakeside Medical,2023-03-11,2023-03-19,8,76,M,AMI,Medicare,Hospice,0,,DR112
+2055,Valley Health,2023-01-04,2023-01-16,12,72,M,Heart Failure,UnitedHealth,AMA,0,,DR110
+2056,Riverside General,2023-12-12,2023-12-25,13,78,M,Sepsis,Medicaid,Hospice,0,,DR122
+2057,Valley Health,2023-01-27,2023-02-03,7,76,M,Sepsis,Self-Pay,SNF,0,,DR134
+2058,Valley Health,2023-03-02,2023-03-07,5,64,M,Heart Failure,Self-Pay,Hospice,0,,DR125
+2059,St. Mary Medical Center,2023-04-22,2023-04-27,5,86,F,Stroke,Medicare,Home Health,0,,DR100
+2060,St. Mary Medical Center,2023-11-12,2023-11-20,8,66,M,Sepsis,Self-Pay,SNF,0,,DR125
+2061,Riverside General,2023-07-01,2023-07-02,1,51,M,COPD,Aetna,Home,0,,DR131
+2062,Summit Hospital,2023-01-04,2023-01-07,3,87,F,Hip Fracture,Blue Cross,AMA,1,16,DR111
+2063,Summit Hospital,2023-10-02,2023-10-15,13,62,M,COPD,Blue Cross,AMA,1,15,DR100
+2064,Valley Health,2023-07-03,2023-07-17,14,90,M,COPD,Aetna,AMA,1,7,DR147
+2065,Summit Hospital,2023-06-19,2023-06-20,1,55,F,Pneumonia,Aetna,AMA,0,,DR135
+2066,Valley Health,2023-09-11,2023-09-24,13,88,F,AMI,Medicaid,Home,0,,DR106
+2067,St. Mary Medical Center,2023-01-11,2023-01-14,3,54,M,Heart Failure,Self-Pay,Home Health,0,,DR127
+2068,Valley Health,2023-11-02,2023-11-14,12,45,F,Stroke,Medicare,AMA,0,,DR115
+2069,St. Mary Medical Center,2023-11-13,2023-11-16,3,77,F,Diabetes,Self-Pay,AMA,1,9,DR112
+2070,Lakeside Medical,2023-08-31,2023-09-12,12,51,M,Diabetes,UnitedHealth,SNF,0,,DR114
+2071,Riverside General,2023-03-03,2023-03-06,3,70,F,Heart Failure,UnitedHealth,SNF,1,7,DR105
+2072,Riverside General,2023-01-27,2023-02-03,7,71,M,Sepsis,Aetna,AMA,0,,DR103
+2073,Valley Health,2023-09-19,2023-09-26,7,86,F,Hip Fracture,Blue Cross,AMA,1,4,DR115
+2074,Valley Health,2023-06-13,2023-06-14,1,56,M,Hip Fracture,Aetna,Home Health,1,2,DR138
+2075,Summit Hospital,2023-02-21,2023-02-28,7,56,F,Sepsis,Blue Cross,Home,0,,DR106
+2076,Riverside General,2023-12-09,2023-12-10,1,88,F,Sepsis,Self-Pay,Home Health,0,,DR147
+2077,Valley Health,2023-10-29,2023-11-07,9,83,M,AMI,Medicare,Home,1,21,DR108
+2078,Riverside General,2023-11-19,2023-12-01,12,83,M,Stroke,Medicare,Home,1,19,DR134
+2079,Riverside General,2023-11-13,2023-11-19,6,64,M,Heart Failure,Medicaid,SNF,0,,DR126
+2080,Lakeside Medical,2023-10-09,2023-10-21,12,61,F,Sepsis,Aetna,Home,0,,DR127
+2081,Lakeside Medical,2023-02-04,2023-02-12,8,71,M,COPD,UnitedHealth,Home Health,0,,DR144
+2082,St. Mary Medical Center,2023-03-08,2023-03-13,5,47,M,AMI,Aetna,Hospice,0,,DR132
+2083,Summit Hospital,2023-02-08,2023-02-11,3,73,F,AMI,UnitedHealth,Home Health,0,,DR113
+2084,Lakeside Medical,2023-04-05,2023-04-06,1,55,M,Stroke,UnitedHealth,Hospice,0,,DR116
+2085,Valley Health,2023-06-05,2023-06-19,14,59,M,COPD,Medicaid,Home,0,,DR134
+2086,Valley Health,2023-05-02,2023-05-07,5,47,M,Hip Fracture,Medicare,SNF,0,,DR113
+2087,Lakeside Medical,2023-10-01,2023-10-03,2,45,F,Sepsis,Medicare,Hospice,0,,DR116
+2088,St. Mary Medical Center,2023-03-10,2023-03-17,7,84,F,Diabetes,Self-Pay,Home Health,1,2,DR111
+2089,Lakeside Medical,2023-05-12,2023-05-13,1,79,M,AMI,Self-Pay,Home Health,0,,DR140
+2090,Riverside General,2023-11-21,2023-12-01,10,80,F,Hip Fracture,Medicaid,Hospice,1,15,DR140
+2091,Summit Hospital,2023-07-22,2023-07-25,3,73,F,COPD,Aetna,Home,0,,DR131
+2092,Riverside General,2023-04-03,2023-04-11,8,56,M,Stroke,Self-Pay,SNF,0,,DR141
+2093,Riverside General,2023-05-25,2023-05-26,1,64,F,Diabetes,Medicare,SNF,0,,DR104
+2094,Summit Hospital,2023-08-07,2023-08-11,4,74,M,COPD,Self-Pay,Home,0,,DR138
+2095,St. Mary Medical Center,2023-02-21,2023-02-28,7,69,M,COPD,Medicaid,Home,1,27,DR117
+2096,St. Mary Medical Center,2023-03-15,2023-03-26,11,83,F,Pneumonia,Medicaid,SNF,1,1,DR130
+2097,Summit Hospital,2023-10-16,2023-10-24,8,55,M,Diabetes,Medicare,Hospice,0,,DR144
+2098,St. Mary Medical Center,2023-05-17,2023-05-28,11,79,M,Hip Fracture,Medicare,Hospice,1,27,DR126
+2099,Summit Hospital,2023-03-14,2023-03-15,1,59,M,Sepsis,Self-Pay,Home Health,1,14,DR114
+2100,St. Mary Medical Center,2023-12-17,2023-12-24,7,88,F,COPD,Medicare,SNF,0,,DR106
+2101,St. Mary Medical Center,2023-05-25,2023-05-31,6,49,F,Pneumonia,Medicare,Hospice,0,,DR109
+2102,Riverside General,2023-04-02,2023-04-09,7,78,F,COPD,Self-Pay,Home Health,0,,DR139
+2103,Summit Hospital,2023-05-27,2023-06-02,6,51,F,Hip Fracture,Self-Pay,Home,0,,DR150
+2104,Riverside General,2023-01-02,2023-01-16,14,54,F,COPD,Aetna,AMA,0,,DR146
+2105,Valley Health,2023-09-02,2023-09-16,14,49,M,Pneumonia,Blue Cross,SNF,1,14,DR111
+2106,Summit Hospital,2023-07-17,2023-07-23,6,65,F,Sepsis,Medicaid,SNF,0,,DR124
+2107,Summit Hospital,2023-08-03,2023-08-12,9,76,M,AMI,Medicare,Hospice,0,,DR145
+2108,Riverside General,2023-08-04,2023-08-13,9,81,M,Diabetes,Blue Cross,Home,0,,DR113
+2109,Riverside General,2023-01-09,2023-01-15,6,80,M,Heart Failure,Blue Cross,Home Health,0,,DR149
+2110,Lakeside Medical,2023-03-13,2023-03-18,5,74,F,Diabetes,Medicaid,SNF,1,28,DR103
+2111,Summit Hospital,2023-03-12,2023-03-14,2,89,M,AMI,Blue Cross,Home,0,,DR144
+2112,Lakeside Medical,2023-02-24,2023-03-07,11,82,M,Heart Failure,Medicaid,Home Health,1,27,DR109
+2113,Summit Hospital,2023-02-10,2023-02-14,4,49,M,COPD,Aetna,SNF,1,27,DR147
+2114,Valley Health,2023-09-28,2023-10-10,12,64,F,Heart Failure,Blue Cross,Home,0,,DR109
+2115,Riverside General,2023-01-31,2023-02-11,11,47,M,Heart Failure,Aetna,AMA,0,,DR143
+2116,Lakeside Medical,2023-08-21,2023-08-30,9,90,F,Diabetes,Aetna,SNF,0,,DR117
+2117,Riverside General,2023-02-17,2023-02-26,9,69,M,AMI,UnitedHealth,Home,0,,DR114
+2118,St. Mary Medical Center,2023-07-20,2023-07-23,3,80,F,Stroke,Blue Cross,AMA,0,,DR124
+2119,Riverside General,2023-03-26,2023-03-27,1,68,F,Pneumonia,Medicare,Home,0,,DR123
+2120,Riverside General,2023-11-05,2023-11-18,13,66,M,Pneumonia,Medicaid,Hospice,1,10,DR100
+2121,St. Mary Medical Center,2023-06-08,2023-06-12,4,80,M,Hip Fracture,Medicare,Hospice,1,30,DR136
+2122,St. Mary Medical Center,2023-01-23,2023-02-02,10,75,F,Heart Failure,Blue Cross,Home Health,1,11,DR125
+2123,Valley Health,2023-09-14,2023-09-18,4,65,M,Pneumonia,Blue Cross,AMA,0,,DR147
+2124,Riverside General,2023-09-15,2023-09-17,2,77,M,AMI,Aetna,Hospice,0,,DR102
+2125,St. Mary Medical Center,2023-05-29,2023-06-01,3,54,M,Diabetes,Medicaid,SNF,0,,DR149
+2126,Lakeside Medical,2023-03-24,2023-04-02,9,78,F,Stroke,Medicaid,Home Health,0,,DR118
+2127,Summit Hospital,2023-07-04,2023-07-14,10,72,M,Diabetes,UnitedHealth,Hospice,1,23,DR104
+2128,St. Mary Medical Center,2023-03-20,2023-03-30,10,85,M,COPD,Blue Cross,Hospice,0,,DR150
+2129,Riverside General,2023-02-14,2023-02-22,8,51,F,COPD,Medicare,Home Health,0,,DR136
+2130,Summit Hospital,2023-07-06,2023-07-12,6,50,F,Stroke,Blue Cross,AMA,1,23,DR141
+2131,Valley Health,2023-03-13,2023-03-15,2,81,F,AMI,Aetna,Hospice,0,,DR143
+2132,Lakeside Medical,2023-03-08,2023-03-16,8,68,F,Sepsis,Medicare,AMA,0,,DR132
+2133,St. Mary Medical Center,2023-08-19,2023-08-24,5,88,M,Heart Failure,Medicaid,Home,1,21,DR118
+2134,St. Mary Medical Center,2023-07-12,2023-07-15,3,81,M,AMI,Aetna,Home,0,,DR122
+2135,Summit Hospital,2023-08-27,2023-09-04,8,86,M,Pneumonia,Medicaid,Home,0,,DR125
+2136,Valley Health,2023-08-10,2023-08-14,4,70,F,Stroke,Medicaid,AMA,0,,DR107
+2137,Summit Hospital,2023-05-23,2023-05-31,8,47,M,Diabetes,Blue Cross,Hospice,0,,DR102
+2138,Valley Health,2023-11-04,2023-11-17,13,69,F,Stroke,Medicaid,Home,1,26,DR113
+2139,Riverside General,2023-01-12,2023-01-25,13,88,M,COPD,Medicare,Home Health,1,9,DR125
+2140,Summit Hospital,2023-02-11,2023-02-16,5,90,M,Hip Fracture,Medicaid,Home,0,,DR105
+2141,Valley Health,2023-08-08,2023-08-14,6,64,F,Stroke,Aetna,Hospice,0,,DR144
+2142,Lakeside Medical,2023-03-24,2023-04-05,12,72,F,Heart Failure,UnitedHealth,Hospice,0,,DR112
+2143,Riverside General,2023-02-09,2023-02-21,12,87,F,Sepsis,Medicare,SNF,0,,DR129
+2144,Summit Hospital,2023-03-17,2023-03-25,8,65,F,Heart Failure,Aetna,SNF,1,22,DR140
+2145,Riverside General,2023-08-19,2023-08-30,11,82,F,COPD,UnitedHealth,AMA,1,7,DR113
+2146,Lakeside Medical,2023-06-28,2023-07-02,4,57,M,Sepsis,Blue Cross,Home,0,,DR119
+2147,Summit Hospital,2023-06-07,2023-06-16,9,52,F,AMI,Blue Cross,Home Health,0,,DR134
+2148,Summit Hospital,2023-08-07,2023-08-16,9,66,F,Sepsis,Medicaid,Hospice,1,6,DR138
+2149,Summit Hospital,2023-03-25,2023-04-03,9,72,F,Pneumonia,Medicare,Home,0,,DR105
+2150,St. Mary Medical Center,2023-11-29,2023-11-30,1,84,F,Pneumonia,Self-Pay,AMA,0,,DR132
+2151,Summit Hospital,2023-10-25,2023-11-07,13,47,M,Diabetes,Aetna,Hospice,0,,DR124
+2152,Valley Health,2023-02-28,2023-03-04,4,75,F,AMI,Self-Pay,AMA,0,,DR100
+2153,Valley Health,2023-07-11,2023-07-24,13,59,F,Hip Fracture,Aetna,SNF,0,,DR100
+2154,Valley Health,2023-08-01,2023-08-02,1,45,F,Sepsis,Medicaid,Hospice,1,26,DR127
+2155,Summit Hospital,2023-05-04,2023-05-13,9,70,M,AMI,Medicaid,AMA,1,21,DR146
+2156,Summit Hospital,2023-03-30,2023-04-06,7,65,M,Pneumonia,Self-Pay,SNF,0,,DR132
+2157,Valley Health,2023-03-02,2023-03-13,11,81,M,Sepsis,Medicaid,Home,0,,DR105
+2158,Lakeside Medical,2023-01-14,2023-01-21,7,45,M,Heart Failure,UnitedHealth,Hospice,0,,DR105
+2159,Riverside General,2023-10-20,2023-10-27,7,46,F,Sepsis,Medicaid,SNF,0,,DR141
+2160,Riverside General,2023-04-24,2023-04-29,5,57,F,Hip Fracture,Self-Pay,Home,0,,DR117
+2161,St. Mary Medical Center,2023-02-12,2023-02-15,3,85,M,Stroke,UnitedHealth,Home,1,19,DR106
+2162,St. Mary Medical Center,2023-03-14,2023-03-19,5,61,M,Stroke,Blue Cross,SNF,0,,DR125
+2163,Summit Hospital,2023-02-21,2023-03-01,8,46,M,Diabetes,Self-Pay,AMA,0,,DR124
+2164,Riverside General,2023-06-10,2023-06-21,11,73,F,Heart Failure,Medicaid,Hospice,0,,DR140
+2165,Valley Health,2023-11-07,2023-11-21,14,47,F,Heart Failure,Medicaid,Hospice,1,11,DR147
+2166,Lakeside Medical,2023-05-11,2023-05-13,2,57,M,COPD,Medicaid,Home Health,0,,DR107
+2167,Riverside General,2023-04-22,2023-04-23,1,65,F,Hip Fracture,Aetna,SNF,1,3,DR105
+2168,Summit Hospital,2023-06-28,2023-07-10,12,80,F,AMI,UnitedHealth,AMA,0,,DR112
+2169,Valley Health,2023-05-09,2023-05-12,3,57,F,Pneumonia,UnitedHealth,Hospice,0,,DR119
+2170,Summit Hospital,2023-03-26,2023-04-08,13,58,F,Stroke,Aetna,Hospice,0,,DR147
+2171,Lakeside Medical,2023-05-20,2023-06-03,14,65,F,AMI,Medicaid,Hospice,0,,DR122
+2172,St. Mary Medical Center,2023-07-11,2023-07-22,11,49,F,AMI,Blue Cross,Hospice,0,,DR141
+2173,Valley Health,2023-09-29,2023-10-05,6,70,F,COPD,Blue Cross,SNF,1,6,DR104
+2174,Valley Health,2023-04-21,2023-05-02,11,68,M,Heart Failure,Blue Cross,Home,0,,DR145
+2175,Valley Health,2023-06-18,2023-06-22,4,74,M,Pneumonia,Aetna,Home Health,0,,DR138
+2176,Lakeside Medical,2023-04-19,2023-04-28,9,58,M,AMI,Self-Pay,AMA,1,9,DR120
+2177,Summit Hospital,2023-06-13,2023-06-17,4,57,M,Hip Fracture,Aetna,Home,1,16,DR107
+2178,Riverside General,2023-08-20,2023-08-23,3,83,M,Hip Fracture,Medicare,Hospice,1,13,DR100
+2179,Summit Hospital,2023-08-25,2023-08-30,5,53,M,Heart Failure,Blue Cross,Home,0,,DR104
+2180,Valley Health,2023-08-29,2023-08-31,2,71,F,Sepsis,Aetna,Home,0,,DR135
+2181,Summit Hospital,2023-06-10,2023-06-18,8,84,F,Pneumonia,Blue Cross,Hospice,1,10,DR106
+2182,Riverside General,2023-01-15,2023-01-19,4,48,M,Sepsis,Self-Pay,AMA,0,,DR114
+2183,Valley Health,2023-03-29,2023-03-31,2,57,M,Heart Failure,Blue Cross,Home,0,,DR107
+2184,Lakeside Medical,2023-01-25,2023-01-30,5,49,F,Hip Fracture,Self-Pay,SNF,0,,DR108
+2185,Riverside General,2023-10-26,2023-11-03,8,52,F,Stroke,Self-Pay,Home,1,28,DR133
+2186,Summit Hospital,2023-09-28,2023-10-02,4,81,F,Sepsis,Self-Pay,AMA,0,,DR114
+2187,Valley Health,2023-02-17,2023-02-22,5,63,M,Diabetes,Self-Pay,Home,0,,DR104
+2188,Summit Hospital,2023-09-11,2023-09-12,1,58,F,Diabetes,Aetna,Home,1,7,DR121
+2189,Lakeside Medical,2023-04-17,2023-05-01,14,82,F,Hip Fracture,Self-Pay,AMA,0,,DR141
+2190,Riverside General,2023-03-20,2023-04-03,14,77,F,AMI,Aetna,Hospice,1,5,DR132
+2191,Summit Hospital,2023-04-14,2023-04-27,13,70,M,Hip Fracture,UnitedHealth,Home,1,9,DR109
+2192,Summit Hospital,2023-08-25,2023-08-27,2,52,M,Hip Fracture,Medicare,AMA,0,,DR142
+2193,Lakeside Medical,2023-09-29,2023-10-07,8,67,M,Sepsis,Aetna,SNF,0,,DR109
+2194,St. Mary Medical Center,2023-07-23,2023-08-01,9,72,F,Hip Fracture,Blue Cross,Home,0,,DR103
+2195,Summit Hospital,2023-11-29,2023-12-06,7,72,M,Hip Fracture,UnitedHealth,Hospice,1,7,DR131
+2196,Riverside General,2023-09-23,2023-09-30,7,51,M,Diabetes,Medicare,Home,0,,DR102
+2197,Valley Health,2023-10-22,2023-10-27,5,60,M,AMI,Aetna,AMA,1,4,DR106
+2198,Riverside General,2023-04-23,2023-05-05,12,89,M,Sepsis,Self-Pay,Home Health,1,7,DR145
+2199,Lakeside Medical,2023-11-02,2023-11-07,5,45,F,Hip Fracture,Self-Pay,SNF,1,17,DR110
